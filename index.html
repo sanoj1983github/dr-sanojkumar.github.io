@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dr. Sanoj Kumar | Academic Portfolio</title>
+    <meta
+      name="description"
+      content="Academic portfolio of Dr. Sanoj Kumar, Senior Associate Professor, Data Science Cluster, SOCS, UPES Dehradun."
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #172033;
+        --muted: #5d6678;
+        --line: #dbe2ee;
+        --accent: #0f766e;
+        --accent-2: #2563eb;
+        --surface: #ffffff;
+        --soft: #f5f8fc;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--ink);
+        background: linear-gradient(180deg, #f8fbff 0%, #eef6f5 100%);
+        line-height: 1.6;
+      }
+
+      a {
+        color: var(--accent-2);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .page {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 28px 18px 48px;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: 190px 1fr;
+        gap: 28px;
+        align-items: center;
+        padding: 34px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        box-shadow: 0 18px 40px rgba(23, 32, 51, 0.08);
+      }
+
+      .photo {
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 6px solid #ffffff;
+        box-shadow: 0 0 0 4px var(--accent), 0 14px 28px rgba(15, 118, 110, 0.2);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 5vw, 4rem);
+        line-height: 1.05;
+      }
+
+      .role {
+        margin: 10px 0 0;
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: var(--accent);
+      }
+
+      .affiliation {
+        margin: 4px 0 18px;
+        color: var(--muted);
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 42px;
+        padding: 9px 14px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fff;
+        color: var(--ink);
+        font-weight: 700;
+      }
+
+      .button.primary {
+        border-color: var(--accent);
+        background: var(--accent);
+        color: #fff;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+        margin-top: 18px;
+      }
+
+      section {
+        margin-top: 18px;
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: 1.35rem;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      li + li {
+        margin-top: 6px;
+      }
+
+      .meta {
+        display: grid;
+        gap: 10px;
+      }
+
+      .item {
+        padding: 14px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--soft);
+      }
+
+      .item strong {
+        display: block;
+      }
+
+      footer {
+        margin-top: 22px;
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      @media (max-width: 720px) {
+        .hero,
+        .grid {
+          grid-template-columns: 1fr;
+        }
+
+        .hero {
+          padding: 24px;
+          text-align: center;
+        }
+
+        .photo {
+          margin: 0 auto;
+        }
+
+        .actions {
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <img class="photo" src="public/media/sanoj-kumar-profile.png" alt="Dr. Sanoj Kumar" />
+        <div>
+          <h1>Dr. Sanoj Kumar</h1>
+          <p class="role">Senior Associate Professor</p>
+          <p class="affiliation">Data Science Cluster, School of Computer Science, UPES Dehradun, Uttarakhand, India</p>
+          <div class="actions">
+            <a class="button primary" href="public/documents/Sanoj-Kumar-updated.pdf">Download Resume</a>
+            <a class="button" href="mailto:sanoj.kumar@upes.ac.in">Email</a>
+            <a class="button" href="https://github.com/sanoj1983github">GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Profile</h2>
+        <p>
+          Dr. Sanoj Kumar is a Senior Associate Professor in the Data Science Cluster, SOCS,
+          UPES Dehradun. His academic work connects applied mathematics, mathematical
+          statistics, numerical analysis, optimization, digital image processing, computer
+          vision, machine learning, and deep learning.
+        </p>
+      </section>
+
+      <div class="grid">
+        <section>
+          <h2>Education</h2>
+          <div class="meta">
+            <div class="item">
+              <strong>Ph.D. in Applied Mathematics</strong>
+              IIT Roorkee, 2013. Thesis: Robust Estimation of Optical Flow and Disparity Map from Image Sequences.
+            </div>
+            <div class="item">
+              <strong>M.Sc. Mathematics</strong>
+              Ch. Charan Singh University, Meerut, 2005.
+            </div>
+            <div class="item">
+              <strong>B.Sc. Mathematics</strong>
+              Ch. Charan Singh University, Meerut, 2003.
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Experience</h2>
+          <ul>
+            <li>Senior Associate Professor, Data Science Cluster, SOCS, UPES Dehradun.</li>
+            <li>Associate Professor and Assistant Professor, UPES Dehradun.</li>
+            <li>Postdoctoral Fellow, University of Udine, Italy.</li>
+            <li>Teaching Assistant and MHRD Research Fellow, IIT Roorkee.</li>
+            <li>Guest Lecturer, MNNIT Allahabad.</li>
+          </ul>
+        </section>
+      </div>
+
+      <section>
+        <h2>Research Interests</h2>
+        <ul>
+          <li>Mathematical Statistics, Numerical Analysis, and Optimization Techniques.</li>
+          <li>Digital Image Processing, Computer Vision, Machine Learning, and Deep Learning.</li>
+          <li>Medical image analysis, brain MRI segmentation, and uncertainty-aware deep learning.</li>
+          <li>Image watermarking, reconstruction, texture classification, and visual surveillance.</li>
+          <li>AI-driven mathematical modeling and healthcare applications.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Selected Publications</h2>
+        <ul>
+          <li>Brain MRI Segmentation using Deep Learning: A Review, Neurocomputing, 2026.</li>
+          <li>Uncertainty-aware multi-class brain tumor segmentation using Bayesian U-Net variants, Biomedical Physics & Engineering Express, 2026.</li>
+          <li>Sequential Multimodal Biometric Authentication Fusion System, Mathematics, 2026.</li>
+          <li>Earthquake-Resilient Structural Control Using PSO-Based Fractional Order Controllers, Fractal and Fractional, 2025.</li>
+          <li>Optimization-Driven Reconstruction of 3D Space Curves from Two Views Using NURBS, Mathematics, 2025.</li>
+          <li>Dual Tree Fractional Quaternion Wavelet Transform for Disparity Estimation, ISA Transactions, 2014.</li>
+        </ul>
+      </section>
+
+      <div class="grid">
+        <section>
+          <h2>Teaching</h2>
+          <ul>
+            <li>Probability and Statistics</li>
+            <li>Introduction to Data Science</li>
+            <li>Digital Image Processing and Machine Vision</li>
+            <li>Machine Learning</li>
+            <li>Python Programming</li>
+            <li>Applied Numerical Methods</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Awards And Service</h2>
+          <ul>
+            <li>GATE Mathematics qualified, AIR 201, 2008.</li>
+            <li>CSIR-UGC NET Mathematics qualified, AIR 112, 2009.</li>
+            <li>Best Paper Award and Young Scientist Award, NETCRYPT 2020.</li>
+            <li>Best Teachers Award, UPES 2023 and 2024.</li>
+            <li>Reviewer for ISA Transactions, IET Image Processing, Mathematics, Journal of Imaging, and related journals.</li>
+          </ul>
+        </section>
+      </div>
+
+      <section>
+        <h2>Contact</h2>
+        <ul>
+          <li>Email: <a href="mailto:sanoj.kumar@upes.ac.in">sanoj.kumar@upes.ac.in</a>, <a href="mailto:sanojdma@gmail.com">sanojdma@gmail.com</a></li>
+          <li>Phone: +91 9058523010</li>
+          <li>Office: Data Science Cluster, SOCS, UPES, Dehradun, India - 248007</li>
+          <li>Address: Manakpur Adampur, Haridwar, Uttarakhand, India - 247668</li>
+        </ul>
+      </section>
+
+      <footer>© 2026 Dr. Sanoj Kumar. All rights reserved.</footer>
+    </main>
+  </body>
+</html>
