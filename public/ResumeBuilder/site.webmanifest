@@ -1,0 +1,33 @@
+{
+  "name": "ScholarResume",
+  "short_name": "ScholarResume",
+  "icons": [
+    {
+      "src": "/favicon-animated-transparent.gif?v=6",
+      "sizes": "128x128",
+      "type": "image/gif",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-transparent.ico?v=6",
+      "sizes": "16x16 32x32 48x48 64x64 128x128",
+      "type": "image/x-icon",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-64x64.ico?v=6",
+      "sizes": "64x64",
+      "type": "image/x-icon",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#020617",
+  "background_color": "#020617",
+  "display": "standalone"
+}

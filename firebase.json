@@ -1,0 +1,85 @@
+{
+  "auth": {
+    "providers": {
+      "emailPassword": true
+    }
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "**/*.exe",
+      "**/*.bat",
+      "**/*.cmd",
+      "**/*.sh",
+      "**/*.msi"
+    ],
+    "redirects": [
+      {
+        "source": "/vision-pen/index.html",
+        "destination": "/vision-pen",
+        "type": 301
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/ResumeBuilder/**",
+        "destination": "/resumebuilder/index.html"
+      },
+      {
+        "source": "/resumebuilder/**",
+        "destination": "/resumebuilder/index.html"
+      },
+      {
+        "source": "/vision-pen/**",
+        "destination": "/vision-pen/index.html"
+      },
+      {
+        "source": "/vision-pen-studio/**",
+        "destination": "/vision-pen-studio/index.html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|ico|woff|woff2|ttf|otf|css|js)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
+        ]
+      },
+      {
+        "source": "/scholarresume-api-sw.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          },
+          {
+            "key": "Service-Worker-Allowed",
+            "value": "/"
+          }
+        ]
+      },
+      {
+        "source": "/**/api-bridge.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "rules": {
+    "visitor-counter": {
+      ".read": true,
+      ".write": true
+    },
+    "scholarresume": {
+      "settings": {
+        ".read": true,
+        ".write": "auth != null && auth.token.admin === true"
+      },
+      "users": {
+        "$uid": {
+          ".read": "auth != null && auth.uid === $uid",
+          ".write": "auth != null && auth.uid === $uid"
+        }
+      },
+      "resumes": {
+        ".indexOn": "user_id",
+        ".read": "auth != null && query.orderByChild === 'user_id' && query.equalTo === auth.uid",
+        "$resumeId": {
+          ".read": "auth != null && data.child('user_id').val() === auth.uid",
+          ".write": "auth != null && ((!data.exists() && newData.child('user_id').val() === auth.uid) || (data.exists() && data.child('user_id').val() === auth.uid && (!newData.exists() || newData.child('user_id').val() === auth.uid)))"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+# Preserve downloaded model/library bytes so checksums match on every platform.
+/public/vision-pen-studio/static/vendor/smart-vision/** -text

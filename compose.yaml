@@ -1,0 +1,86 @@
+name: mritunjay-portfolio
+
+services:
+  scholarresume-backend:
+    image: scholarresume-backend:local
+    build:
+      context: ../Resume Builder/backend
+    env_file:
+      - ../Resume Builder/backend/.env
+    environment:
+      DATABASE_URL: postgresql://resume_user:resume_pass@host.docker.internal:5432/resume_db
+      PORT: "4000"
+      BACKEND_URL: http://localhost:4000
+      FRONTEND_URL: http://localhost:3000/resumebuilder
+    ports:
+      - "4000:4000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - fetch('http://127.0.0.1:4000/api/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))
+      interval: 15s
+      timeout: 5s
+      start_period: 45s
+      retries: 5
+
+  portfolio:
+    image: mritunjay-portfolio:local
+    build:
+      context: .
+      target: runner
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      SCHOLARRESUME_BACKEND_URL: http://scholarresume-backend:4000
+    depends_on:
+      scholarresume-backend:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - Promise.all(['/vision-pen','/vision-pen-studio/smart-vision.html','/filterverse'].map(p=>fetch('http://127.0.0.1:3000'+p))).then(rs=>{if(rs.some(r=>!r.ok))process.exit(1)}).catch(()=>process.exit(1))
+      interval: 30s
+      timeout: 5s
+      start_period: 20s
+      retries: 3
+
+  portfolio-dev:
+    profiles:
+      - dev
+    image: mritunjay-portfolio:dev
+    build:
+      context: .
+      target: development
+    ports:
+      - "3001:3000"
+    environment:
+      NODE_ENV: development
+      SCHOLARRESUME_BACKEND_URL: http://scholarresume-backend:4000
+    depends_on:
+      scholarresume-backend:
+        condition: service_healthy
+    volumes:
+      - .:/app
+      - portfolio_node_modules:/app/node_modules
+    command:
+      - npm
+      - run
+      - dev
+      - --
+      - --hostname
+      - 0.0.0.0
+      - --port
+      - "3000"
+
+volumes:
+  portfolio_node_modules:

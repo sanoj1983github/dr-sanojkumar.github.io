@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#080b12">
+    <meta name="description" content="Write in the air using your fingertip, webcam, MediaPipe hand tracking, and OpenCV.">
+    <title>VisionPen — Real-Time Finger Writing</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./static/vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./static/css/style.css?v=20260826-tracking-age">
+
+    <script src="./static/vendor/mediapipe-hands/hands.js"></script>
+</head>
+<body class="dark-theme">
+    <div class="app-container">
+        <header class="app-header">
+            <div class="brand-logo" aria-label="VisionPen">
+                <div class="logo-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                <div class="brand-text">
+                    <h1>Vision<span>Pen</span><span class="yolo-tag">AI</span></h1>
+                    <span class="tagline">Your finger becomes the pen</span>
+                </div>
+            </div>
+
+            <div class="header-status-group">
+                <div class="status-badge" id="cameraStatus" role="status">
+                    <span class="status-dot idle"></span>
+                    <span class="status-text">Camera off</span>
+                </div>
+                <div class="fps-pill" id="fpsDisplay" aria-label="Processing speed">
+                    <i class="fa-solid fa-bolt"></i> <span>0 FPS</span>
+                </div>
+            </div>
+
+            <div class="header-actions">
+                <a class="icon-btn highlight-btn" id="objectDetectionBtn" href="./smart-vision.html?v=20260826-tracking-age" target="_blank" rel="noopener noreferrer" title="Open Object Detection in a new tab" aria-label="Object Detection (opens in a new tab)">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <span class="btn-text-sm">Object Detection</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                </a>
+                <button class="icon-btn" id="gestureGuideBtn" type="button" title="Open gesture guide" aria-label="Open gesture guide">
+                    <i class="fa-solid fa-hand"></i>
+                </button>
+                <button class="icon-btn" id="cameraToggleBtn" type="button" title="Pause camera" aria-label="Pause camera" disabled>
+                    <i class="fa-solid fa-pause"></i>
+                </button>
+                <button class="icon-btn" id="flipCameraBtn" type="button" title="Switch camera" aria-label="Switch camera" disabled>
+                    <i class="fa-solid fa-camera-rotate"></i>
+                </button>
+                <button class="icon-btn" id="fullscreenBtn" type="button" title="Toggle fullscreen" aria-label="Toggle fullscreen">
+                    <i class="fa-solid fa-expand"></i>
+                </button>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="canvas-viewport" id="viewportContainer">
+                <video id="webcam" playsinline webkit-playsinline muted></video>
+                <canvas id="output_canvas" aria-label="Live camera writing canvas"></canvas>
+
+                <section class="camera-gate" id="cameraGate" aria-labelledby="cameraGateTitle">
+                    <div class="camera-gate-glow"></div>
+                    <div class="camera-gate-card">
+                        <div class="camera-preview-icon" id="cameraGateIcon">
+                            <i class="fa-solid fa-video"></i>
+                            <span class="preview-pulse"></span>
+                        </div>
+                        <span class="eyebrow"><i class="fa-solid fa-shield-halved"></i> Private, on-device tracking</span>
+                        <h2 id="cameraGateTitle">Turn on your camera to start writing</h2>
+                        <p id="cameraGateMessage">VisionPen tracks your hand inside this browser. Live video is not uploaded while you draw.</p>
+                        <button class="start-camera-btn" id="startCameraBtn" type="button">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Start camera</span>
+                        </button>
+                        <p class="camera-hint"><i class="fa-regular fa-lightbulb"></i> Hold up only your index finger to write.</p>
+                    </div>
+                </section>
+
+                <div class="gesture-badge" id="gestureBadge" aria-live="polite">
+                    <div class="gesture-icon" id="gestureIcon"><i class="fa-solid fa-hand-pointer"></i></div>
+                    <div class="gesture-info">
+                        <span class="gesture-label" id="gestureLabel">CAMERA OFF</span>
+                        <span class="gesture-sub" id="gestureSub">Start the camera when you are ready</span>
+                    </div>
+                </div>
+
+                <nav class="floating-quick-actions" aria-label="Drawing actions">
+                    <button class="action-circle-btn danger" id="clearCanvasBtn" type="button" title="Clear canvas">
+                        <i class="fa-solid fa-trash"></i><span>Clear</span>
+                    </button>
+                    <button class="action-circle-btn" id="undoBtn" type="button" title="Undo last stroke" disabled>
+                        <i class="fa-solid fa-rotate-left"></i><span>Undo</span>
+                    </button>
+                    <button class="action-circle-btn" id="redoBtn" type="button" title="Redo last stroke" disabled>
+                        <i class="fa-solid fa-rotate-right"></i><span>Redo</span>
+                    </button>
+                    <button class="action-circle-btn success" id="saveDrawingBtn" type="button" title="Download drawing">
+                        <i class="fa-solid fa-download"></i><span>Save</span>
+                    </button>
+                </nav>
+            </div>
+
+            <section class="control-dock" aria-label="Drawing tools">
+                <div class="dock-section board-mode-group">
+                    <span class="section-title">Board</span>
+                    <div class="board-options" role="group" aria-label="Canvas background">
+                        <button class="board-btn active" data-board="camera" type="button" aria-label="Camera canvas" aria-pressed="true" title="Camera canvas"><i class="fa-solid fa-video"></i><span>Camera</span></button>
+                        <button class="board-btn" data-board="black" type="button" aria-label="Black board" aria-pressed="false" title="Black board"><i class="fa-solid fa-chalkboard"></i><span>Black</span></button>
+                        <button class="board-btn" data-board="white" type="button" aria-label="White board" aria-pressed="false" title="White board"><i class="fa-regular fa-square"></i><span>White</span></button>
+                    </div>
+                </div>
+
+                <div class="dock-divider"></div>
+
+                <div class="dock-section tools-group">
+                    <span class="section-title">Tool</span>
+                    <div class="button-row">
+                        <button class="tool-btn active" data-tool="pen" type="button" aria-label="Pen tool" title="Pen"><i class="fa-solid fa-pen-nib"></i><span>Pen</span></button>
+                        <button class="tool-btn" data-tool="marker" type="button" aria-label="Marker tool" title="Marker"><i class="fa-solid fa-marker"></i><span>Marker</span></button>
+                        <button class="tool-btn" data-tool="highlighter" type="button" aria-label="Glow tool" title="Glow"><i class="fa-solid fa-highlighter"></i><span>Glow</span></button>
+                        <button class="tool-btn" data-tool="eraser" type="button" aria-label="Eraser tool" title="Eraser"><i class="fa-solid fa-eraser"></i><span>Eraser</span></button>
+                    </div>
+                </div>
+
+                <div class="dock-divider"></div>
+
+                <div class="dock-section colors-group">
+                    <span class="section-title">Colour</span>
+                    <div class="color-palette">
+                        <button class="color-swatch active" data-color="#00f3ff" style="--swatch-color:#00f3ff" type="button" aria-label="Cyan"></button>
+                        <button class="color-swatch" data-color="#b026ff" style="--swatch-color:#b026ff" type="button" aria-label="Purple"></button>
+                        <button class="color-swatch" data-color="#39ff14" style="--swatch-color:#39ff14" type="button" aria-label="Lime"></button>
+                        <button class="color-swatch" data-color="#ff7a1a" style="--swatch-color:#ff7a1a" type="button" aria-label="Orange"></button>
+                        <button class="color-swatch" data-color="#ff2f88" style="--swatch-color:#ff2f88" type="button" aria-label="Pink"></button>
+                        <button class="color-swatch" data-color="#ffffff" style="--swatch-color:#ffffff" type="button" aria-label="White"></button>
+                        <button class="color-swatch dark-swatch" data-color="#111827" style="--swatch-color:#111827" type="button" aria-label="Black"></button>
+                        <label class="color-picker-wrapper" title="Custom colour" aria-label="Custom colour">
+                            <input type="color" id="customColorPicker" value="#00f3ff">
+                            <i class="fa-solid fa-palette"></i>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="dock-divider"></div>
+
+                <div class="dock-section slider-group">
+                    <div class="slider-header">
+                        <span class="section-title">Stroke</span>
+                        <output class="slider-value" id="strokeSizeValue">6px</output>
+                    </div>
+                    <input type="range" id="strokeSizeSlider" min="2" max="30" value="6" step="1" aria-label="Stroke size">
+                </div>
+
+                <div class="dock-divider"></div>
+
+                <div class="dock-section options-group">
+                    <span class="section-title">View</span>
+                    <div class="toggle-options">
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="toggleSkeleton" checked>
+                            <span class="switch-slider"></span>
+                            <span class="toggle-label"><i class="fa-solid fa-hand-dots"></i> Hand HUD</span>
+                        </label>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="toggleMirror" checked>
+                            <span class="switch-slider"></span>
+                            <span class="toggle-label"><i class="fa-solid fa-arrows-left-right"></i> Mirror</span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <div class="modal-backdrop" id="gestureModal" role="dialog" aria-modal="true" aria-labelledby="gestureModalTitle">
+            <div class="modal-card">
+                <div class="modal-header">
+                    <h2 id="gestureModalTitle"><i class="fa-solid fa-hand-sparkles"></i> Gesture guide</h2>
+                    <button class="close-btn" id="closeModalBtn" type="button" aria-label="Close gesture guide">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="gesture-grid">
+                        <article class="gesture-card"><div class="gesture-img">☝️</div><h3>Write</h3><p>Keep only your index finger raised and move it through the air.</p></article>
+                        <article class="gesture-card"><div class="gesture-img">✌️</div><h3>Hover</h3><p>Raise your index and middle fingers to move without drawing.</p></article>
+                        <article class="gesture-card"><div class="gesture-img">🤏</div><h3>Erase</h3><p>Pinch your thumb and index finger, or close your fist, to erase.</p></article>
+                        <article class="gesture-card"><div class="gesture-img">🖐️</div><h3>Clear</h3><p>Hold an open palm for 1.2 seconds to clear the entire canvas.</p></article>
+                    </div>
+                </div>
+                <div class="modal-footer"><button class="btn-primary" id="gotItBtn" type="button">Got it</button></div>
+            </div>
+        </div>
+
+        <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+    </div>
+
+    <script src="./static/js/canvasEngine.js?v=20260814-smooth-board"></script>
+    <script src="./static/js/handTracker.js?v=20260814-smooth-board"></script>
+    <script src="./static/js/app.js?v=20260826-tracking-age"></script>
+</body>
+</html>

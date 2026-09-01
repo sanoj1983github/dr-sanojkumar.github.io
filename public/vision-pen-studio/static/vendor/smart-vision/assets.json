@@ -1,0 +1,104 @@
+[
+  {
+    "path": "face-api.js",
+    "url": "https://cdn.jsdelivr.net/npm/@vladmandic/face-api@1.7.15/dist/face-api.js",
+    "bytes": 1333943,
+    "sha256": "0160f7af3a8c78cece45c7ecc765383bad74becfd438bb787cdd627b2d6f2cf6"
+  },
+  {
+    "path": "FACE-API-LICENSE",
+    "url": "https://cdn.jsdelivr.net/npm/@vladmandic/face-api@1.7.15/LICENSE",
+    "bytes": 1067,
+    "sha256": "9a3442b79acaf4fbc7c2e07b7e2d8f84af9bb3871bf08a69d80304ab00640e9a"
+  },
+  {
+    "path": "coco-ssd.min.js",
+    "url": "https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd@2.2.3/dist/coco-ssd.min.js",
+    "bytes": 9299,
+    "sha256": "8875b8c1bb57723990c9d6506226e0e51cd21b8b6943eb53201086096de52df5"
+  },
+  {
+    "path": "COCO-SSD-LICENSE",
+    "url": "https://raw.githubusercontent.com/tensorflow/tfjs-models/master/LICENSE",
+    "bytes": 11357,
+    "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+  },
+  {
+    "path": "TENSORFLOW-LICENSE",
+    "url": "https://raw.githubusercontent.com/tensorflow/tfjs/tfjs-v4.22.0/LICENSE",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "face/tiny_face_detector_model-weights_manifest.json",
+    "url": "https://cdn.jsdelivr.net/npm/@vladmandic/face-api@1.7.15/model/tiny_face_detector_model-weights_manifest.json",
+    "bytes": 3219,
+    "sha256": "5d1af4849ac48d5b985f4a9b16010c512353ddd6fcc63d50fd0bc9e9e64296e5"
+  },
+  {
+    "path": "face/tiny_face_detector_model.bin",
+    "url": "https://cdn.jsdelivr.net/npm/@vladmandic/face-api@1.7.15/model/tiny_face_detector_model.bin",
+    "bytes": 193321,
+    "sha256": "b7503ce7df31039b1c43316a9b865cab6a70dd748cc602d3fa28b551503c3871"
+  },
+  {
+    "path": "face/face_landmark_68_tiny_model-weights_manifest.json",
+    "url": "https://cdn.jsdelivr.net/npm/@vladmandic/face-api@1.7.15/model/face_landmark_68_tiny_model-weights_manifest.json",
+    "bytes": 4806,
+    "sha256": "9a1a5dd19fd814fd5095c3cb58f8e0d3193b8c5b9a6715b30a69d559aea31ad4"
+  },
+  {
+    "path": "face/face_landmark_68_tiny_model.bin",
+    "url": "https://cdn.jsdelivr.net/npm/@vladmandic/face-api@1.7.15/model/face_landmark_68_tiny_model.bin",
+    "bytes": 77224,
+    "sha256": "b98e9f2f7da76f8a6dda9741a36ed485b224b889d552de2b2c1bb16217f67bfc"
+  },
+  {
+    "path": "face/age_gender_model-weights_manifest.json",
+    "url": "https://cdn.jsdelivr.net/npm/@vladmandic/face-api@1.7.15/model/age_gender_model-weights_manifest.json",
+    "bytes": 8392,
+    "sha256": "74b60bf3ebf981bf4e661e9cca3a185614e10b25d797118b62e2a68d3ff2569f"
+  },
+  {
+    "path": "face/age_gender_model.bin",
+    "url": "https://cdn.jsdelivr.net/npm/@vladmandic/face-api@1.7.15/model/age_gender_model.bin",
+    "bytes": 429708,
+    "sha256": "49f92bbc0afef2342c4385e4a2b0acb6d7a727c6f0aa539499719a81acf9abaa"
+  },
+  {
+    "path": "objects/model.json",
+    "url": "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/model.json",
+    "bytes": 527315,
+    "sha256": "3770b2528339b1e3340cb74360e1e40401816b009779aeb8d0cce3a4353ea3a9"
+  },
+  {
+    "path": "objects/group1-shard1of5",
+    "url": "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/group1-shard1of5",
+    "bytes": 4194304,
+    "sha256": "0e7af0f713e98521252321f7f84892c31cefccccec3ac64c84e5065b75ed5646"
+  },
+  {
+    "path": "objects/group1-shard2of5",
+    "url": "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/group1-shard2of5",
+    "bytes": 4194304,
+    "sha256": "74cc6cfc2c4510c9cd81b8ad4cebf6f6a8f305119bb365ce0eb96276da38519a"
+  },
+  {
+    "path": "objects/group1-shard3of5",
+    "url": "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/group1-shard3of5",
+    "bytes": 4194304,
+    "sha256": "50383033f893eae136392a403e8f70ade5efd90867df5695c4ca5ac640e14f38"
+  },
+  {
+    "path": "objects/group1-shard4of5",
+    "url": "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/group1-shard4of5",
+    "bytes": 4194304,
+    "sha256": "d856dc534c780068bbf6c666ce1516df2c8433d87578aa31fcdf197de7058cc2"
+  },
+  {
+    "path": "objects/group1-shard5of5",
+    "url": "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/group1-shard5of5",
+    "bytes": 1257312,
+    "sha256": "3d356f1fb6dfca6af78c56db34d9326706d0196e303f9de6b04f236ca79ed309"
+  }
+]

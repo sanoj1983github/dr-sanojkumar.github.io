@@ -1,0 +1,8 @@
+INKORA APP — BETA DOWNLOAD
+
+The Inkora App website and secure download tracking are ready.
+
+Replace NEXT_PUBLIC_INKORA_DOWNLOAD_URL in .env.local with the final Windows,
+macOS, or web-app download URL when the production installer is available.
+
+Thank you for trying Inkora.
