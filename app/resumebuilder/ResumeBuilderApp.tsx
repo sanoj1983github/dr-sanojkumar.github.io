@@ -72,20 +72,20 @@ export interface ResumeData {
 
 const defaultResumeData: ResumeData = {
   personal: {
-    fullName: "Dr. Mritunjay Shall Peelam",
-    headline: "Assistant Professor (Selection Grade) & Research Faculty | Ph.D. BITS Pilani",
-    email: "mritunjay.iete@gmail.com",
-    phone: "+91-8745080986",
-    website: "https://dr-mritunjaysp.com",
+    fullName: "Dr. Sanoj Kumar",
+    headline: "Assistant Professor (Selection Grade) & Research Faculty | Ph.D. IIT Roorkee",
+    email: "sanojdma@gmail.com",
+    phone: "+91 9058523010",
+    website: "https://sanoj1983github.github.io/dr-sanojkumar.github.io",
     location: "Dehradun, Uttarakhand & Mirzapur, UP, India",
   },
   summary:
-    "Ph.D. scholar from BITS Pilani specializing in Blockchain Interoperability, Quantum IoT Security, Post-Quantum Cryptography, and Intelligent Transportation Systems. Author of multiple Q1 IEEE/Elsevier journal articles with high citation impact.",
+    "Ph.D. scholar from IIT Roorkee specializing in Applied Mathematics, Optimization, Digital Image Processing, Computer Vision, Machine Learning, and Deep Learning. Author of multiple Q1 IEEE/Elsevier journal articles with high citation impact.",
   skills: [
-    "Blockchain Protocols (PoA, IBC, Cosmos)",
+    "Computer Vision and Image Processing",
     "Post-Quantum Cryptography (FALCON)",
     "Quantum Key Distribution (QKD)",
-    "Edge AI & Federated Learning",
+    "Optimization and Statistical Modeling",
     "Intelligent Transportation Systems (ITS)",
     "Python",
     "C / C++",
@@ -97,11 +97,11 @@ const defaultResumeData: ResumeData = {
     {
       institution: "Birla Institute of Technology and Science (BITS), Pilani",
       degree: "Ph.D. in Electrical & Electronics Engineering",
-      specialization: "Blockchain & Intelligent Transportation Systems",
+      specialization: "Applied Mathematics and Computer Vision",
       start: "2020",
       end: "2025",
       score: "Ph.D. Awarded",
-      thesisTitle: "Blockchain-Based Secure Frameworks for Intelligent Transportation Systems",
+      thesisTitle: "Robust Estimation of Optical Flow and Disparity Map from Image Sequences",
     },
     {
       institution: "M.Tech in Electronics & Communication Engineering",
@@ -118,10 +118,10 @@ const defaultResumeData: ResumeData = {
       role: "Assistant Professor (Selection Grade) & Research Faculty",
       start: "2024",
       end: "Present",
-      details: "Teaching Software Engineering, OS, and Data Structures. Supervising undergraduate and doctoral research projects in Blockchain & Quantum Security.",
+      details: "Teaching data science, machine learning, digital image processing, probability, statistics, and applied mathematics. Supervising doctoral, postgraduate, and undergraduate research projects.",
     },
     {
-      organization: "BITS Pilani",
+      organization: "IIT Roorkee",
       role: "Graduate Research & Teaching Assistant",
       start: "2020",
       end: "2024",
@@ -138,7 +138,7 @@ const defaultResumeData: ResumeData = {
       doi: "10.1049/qtc2.12089",
     },
     {
-      title: "QIoTChain: Quantum IoT-blockchain fusion for advanced data protection in Industry 4.0",
+      title: "Uncertainty-aware multi-class brain tumor segmentation using Bayesian U-Net variants",
       journal: "Elsevier Computers & Electrical Engineering",
       year: "2025",
       impactFactor: "4.3",
@@ -146,7 +146,7 @@ const defaultResumeData: ResumeData = {
       doi: "10.1016/j.compeleceng.2024.109201",
     },
     {
-      title: "DemocracyGuard: Blockchain-based secure voting framework for digital democracy",
+      title: "Earthquake-Resilient Structural Control Using PSO-Based Fractional Order Controllers",
       journal: "Wiley Security and Privacy",
       year: "2025",
       impactFactor: "3.2",
@@ -159,7 +159,7 @@ const defaultResumeData: ResumeData = {
       title: "Best Researcher Award",
       organization: "International Research Excellence Forum",
       year: "2026",
-      detail: "Recognized for high-impact research contributions in Blockchain & Post-Quantum IoT Security.",
+      detail: "Recognized for high-impact research contributions in Applied Mathematics, Machine Learning, and Computer Vision.",
     },
     {
       title: "Wiley Top Viewed Article 2025",

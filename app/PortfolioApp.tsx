@@ -112,7 +112,7 @@ const primaryNav = [
 const moreNav = [
   { label: "Filter Verse", href: "/filterverse", key: "filterverse" },
   { label: "Vision Pen", href: "/vision-pen", key: "vision-pen" },
-  { label: "MSP Live Frame", href: "/msp-live-frame", key: "msp-live-frame" },
+  { label: "Live Research Frame", href: "/msp-live-frame", key: "msp-live-frame" },
   { label: "Inkora PenApp", href: "/inkora", key: "inkora" },
   { label: "Sorting Visualizer", href: "/sorting-visualizer", key: "sorting-visualizer" },
   { label: "Awards & FDP", href: "/award-fdp", key: "award-fdp" },
@@ -121,285 +121,208 @@ const moreNav = [
   { label: "Bhagwatgita", href: "/bhagwatgita", key: "bhagwatgita" },
   { label: "Ramayan", href: "/ramayan", key: "ramayan" },
   {
-    label: "Quantum Computing",
+    label: "Computer Vision",
     href: "/quantum-computation",
     key: "quantum-computation",
   },
-  { label: "Blockchain", href: "/blockchain", key: "blockchain" },
+  { label: "Computer Vision", href: "/blockchain", key: "blockchain" },
   { label: "Poems", href: "/poems", key: "poems" },
   { label: "Motivations", href: "/motivations", key: "motivations" },
 ] as const;
 
 const publications: Publication[] = [
   {
-    title: "Quantum computing applications for Internet of Things",
-    authors: "Mritunjay Shall Peelam, Anjaney Asreet Rout, and Vinay Chamola",
-    venue: "IET Quantum Communication",
-    year: 2024,
-    citations: 81,
-    tags: ["Q2 Journal", "Scopus Indexed", "Impact Factor: 2.8"],
-    doi: "https://doi.org/10.1049/qtc2.12079",
+    title: "Brain MRI Segmentation using Deep Learning: A Review",
+    authors: "Rahul Pal, Sanoj Kumar, and Gaurav Bhatnagar",
+    venue: "Neurocomputing (Elsevier)",
+    year: 2026,
+    citations: 0,
+    tags: ["Under Review", "SCI", "Impact Factor: 6.5"],
     abstract:
-      "The Internet of Things (IoT) ecosystem faces significant bottlenecks in processing power, energy consumption, and security as billions of heterogeneous devices join networks globally. Quantum computing introduces powerful computational paradigms—such as quantum superposition, entanglement, and quantum parallel processing—that promise to revolutionize IoT infrastructures. This paper presents a comprehensive study on quantum computing applications for IoT, detailing post-quantum cryptography, Quantum Key Distribution (QKD), quantum random number generation (QRNG), network routing optimization using quantum approximate optimization algorithms (QAOA), and quantum-assisted sensing. We analyze current hardware limitations, algorithmic readiness, and integration pathways to build quantum-resilient and ultra-efficient next-generation IoT systems.",
+      "A review of deep learning techniques for brain MRI segmentation, covering model families, datasets, evaluation practices, and emerging clinical imaging challenges.",
   },
   {
-    title:
-      "QIoTChain: Quantum IoT-blockchain fusion for advanced data protection in Industry 4.0",
-    authors:
-      "Aditya Kumar Sharma, Mritunjay Shall Peelam, Brijesh Kumar Chaurasia, and Vinay Chamola",
-    venue: "IET Blockchain",
-    year: 2024,
-    citations: 65,
-    tags: ["Q2 Journal", "Scopus Indexed"],
-    doi: "https://doi.org/10.1049/blc2.12059",
+    title: "Uncertainty-aware multi-class brain tumor segmentation using Bayesian U-Net variants",
+    authors: "Rahul Pal, Sanoj Kumar, and Gaurav Bhatnagar",
+    venue: "Biomedical Physics & Engineering Express",
+    year: 2026,
+    citations: 0,
+    tags: ["SCI", "Impact Factor: 2.0"],
     abstract:
-      "Industry 4.0 architectures rely heavily on interconnected Internet of Things (IoT) devices, edge nodes, and automated cyber-physical production systems. However, traditional centralized data management and classical encryption protocols remain vulnerable to single-point failures and future quantum computing decryption attacks. In this paper, we propose QIoTChain, a novel fusion framework combining post-quantum cryptographic primitives, quantum-resistant lattice-based signatures, and distributed ledger technology tailored for smart manufacturing. We design an efficient consensus mechanism to mitigate computational overhead on edge devices while guaranteeing tamper-proof data provenance, automated smart-contract auditing, and end-to-end operational privacy.",
+      "Bayesian U-Net variants for uncertainty-aware multi-class brain tumor segmentation, emphasizing reliable medical image analysis and interpretable model confidence.",
   },
   {
-    title:
-      "A review on emergency vehicle management for intelligent transportation systems",
-    authors:
-      "Mritunjay Shall Peelam, Mehul Gera, Vinay Chamola, and Sherali Zeadally",
-    venue: "IEEE Transactions on Intelligent Transportation Systems",
-    year: 2024,
-    citations: 58,
-    tags: ["Q1 Journal", "SCIE Indexed", "Impact Factor: 8.4"],
+    title: "Sequential Multimodal Biometric Authentication Fusion System",
+    authors: "Swati Rastogi, Sanoj Kumar, Musrrat Ali, and Abdul Rahaman Wahab Sait",
+    venue: "Mathematics",
+    year: 2026,
+    citations: 0,
+    tags: ["SCI", "Impact Factor: 2.3"],
     abstract:
-      "Emergency vehicle management (EVM) is vital for minimizing response times during life-threatening medical, fire, and security crises in smart cities. Intelligent Transportation Systems (ITS) leverage real-time traffic signal preemption, dynamic route optimization, vehicle-to-everything (V2X) communications, and edge-fog computing to streamline EV transit. This paper presents an exhaustive survey of EVM frameworks, covering traffic management algorithms, priority signal preemptions, sensor fusion, and multi-agent reinforcement learning. We categorize existing implementations based on communication protocols, centralized versus decentralized control architectures, and evaluate resilience against traffic congestion, communication latency, and cybersecurity vulnerabilities.",
+      "A multimodal biometric authentication framework using sequential fusion to strengthen identity verification across complementary biometric signals.",
   },
   {
-    title:
-      "Metaverse for education: Developments, challenges, and future direction",
-    authors:
-      "Vinay Chamola, Mritunjay Shall Peelam, Uday Mittal, and collaborators",
-    venue: "Computer Applications in Engineering Education",
+    title: "Earthquake-Resilient Structural Control Using PSO-Based Fractional Order Controllers",
+    authors: "Sanoj Kumar, Harendra Pal Singh, Musrrat Ali, and Abdul Rahaman Wahab Sait",
+    venue: "Fractal and Fractional",
     year: 2025,
-    citations: 68,
-    tags: ["Q1 Journal", "SCIE Indexed", "Impact Factor: 2.2"],
+    citations: 0,
+    tags: ["SCI", "Impact Factor: 3.5"],
     abstract:
-      "The integration of the Metaverse into educational paradigms offers immersive, interactive, and spatial learning environments that transcend physical boundaries. By unifying Virtual Reality (VR), Augmented Reality (AR), Extended Reality (XR), Artificial Intelligence (AI), and Internet of Things (IoT) sensors, the educational Metaverse enables real-time experiential simulations, digital twin laboratories, and personalized learning pathways. This paper provides a structured review of technological developments in educational metaverse platforms, analyzing pedagogical frameworks, architectural components, and user interaction mechanisms. We examine technical bottlenecks including high rendering latency, privacy preservation, hardware accessibility, and cognitive overload, providing strategic directions for sustainable adoption.",
+      "Optimization-driven fractional order control for earthquake-resilient structures using particle swarm optimization and applied mathematical modeling.",
   },
   {
-    title:
-      "Unlocking the potential of interconnected blockchains: A comprehensive study of Cosmos blockchain interoperability",
-    authors:
-      "Mritunjay Shall Peelam, Brijesh Kumar Chaurasia, Aditya Kumar Sharma, Vinay Chamola, and Biplab Sikdar",
-    venue: "IEEE Access",
-    year: 2024,
-    citations: 52,
-    tags: ["Q2 Journal", "SCIE Indexed", "Impact Factor: 3.6"],
-    abstract:
-      "Interoperability remains a fundamental bottleneck in the blockchain ecosystem, where siloed ledgers struggle to communicate, share state, or execute cross-chain transactions securely. The Cosmos network addresses this via Tendermint BFT consensus and the Inter-Blockchain Communication (IBC) protocol. This paper presents a thorough empirical and architectural study of Cosmos blockchain interoperability. We evaluate Tendermint core mechanics, IBC packet relaying, sovereign hub-and-spoke topologies, and cross-chain token transfer dynamics. Furthermore, we benchmark transaction throughput, latency, security models against double-spending and eclipse attacks, highlighting key trade-offs in building scalable multi-chain decentralized finance (DeFi) and enterprise platforms.",
-  },
-  {
-    title:
-      "Explorative implementation of quantum key distribution algorithms for secure consumer electronics networks",
-    authors: "Mritunjay Shall Peelam, Siva Sai, and Vinay Chamola",
-    venue: "IEEE Transactions on Consumer Electronics",
-    year: 2024,
-    citations: 39,
-    tags: ["Q1 Journal", "SCIE Indexed", "Impact Factor: 10.9"],
-    abstract:
-      "Consumer electronics networks, including smart home gateways, connected wearables, and personal IoT nodes, handle increasingly sensitive user data while possessing constrained memory and processing capabilities. As quantum algorithms advance, conventional public-key cryptography will become vulnerable to compromise. This paper investigates the experimental deployment of Quantum Key Distribution (QKD) protocols—such as BB84 and E91—tailored for resource-bounded consumer electronics. We evaluate key generation rates, quantum bit error rates (QBER), post-processing error reconciliation, and privacy amplification in noise-prone wireless environments, demonstrating the viability of hybrid quantum-classical key exchange mechanisms.",
-  },
-  {
-    title:
-      "Future of connectivity: A comprehensive review of innovations and challenges in 7G smart networks",
-    authors:
-      "Vinay Chamola, Mritunjay Shall Peelam, Mohsen Guizani, and Dusit Niyato",
-    venue: "IEEE Open Journal of the Communications Society",
+    title: "Optimization-Driven Reconstruction of 3D Space Curves from Two Views Using NURBS",
+    authors: "Musrrat Ali, Deepika Saini, Sanoj Kumar, and Abdul Rahaman Wahab Sait",
+    venue: "Mathematics",
     year: 2025,
-    citations: 47,
-    tags: ["Q1 Journal", "ESCI Indexed", "Impact Factor: 6.1"],
+    citations: 0,
+    tags: ["SCI", "Impact Factor: 2.3"],
     abstract:
-      "While 5G deployment matures and 6G research takes shape, the vision of 7G smart networks emerges to address hyper-connected environments requiring sub-millisecond latency, terabit-per-second data rates, and autonomous self-evolving intelligence. 7G networks will integrate space-air-ground-sea integrated networks (SAGSIN), quantum networking, AI-native edge intelligence, holographic communications, and intelligent reflecting surfaces (IRS). This paper delivers a forward-looking survey on 7G architectural innovations, detailing key enabling technologies, spectrum management in terahertz frequencies, semantic communication paradigms, and extreme security frameworks. We discuss critical research challenges including energy consumption, cross-domain management, and protocol standardization.",
+      "A NURBS-based optimization approach for reconstructing three-dimensional space curves from two-view geometric information.",
   },
   {
-    title:
-      "Enhancing security using quantum blockchain in consumer IoT networks",
-    authors: "Mritunjay Shall Peelam, Vinay Chamola, and Biplab Sikdar",
-    venue: "IEEE Transactions on Consumer Electronics",
+    title: "A Complex Network Analysis of Image Watermarking Scheme Based on SVD and DWT",
+    authors: "Manoj Kumar Singh, Sanoj Kumar, and Deepika Saini",
+    venue: "SN Computer Science",
     year: 2024,
-    citations: 38,
-    tags: ["Q1 Journal", "SCIE Indexed", "Impact Factor: 10.9"],
+    citations: 0,
+    tags: ["Journal", "Computer Vision"],
     abstract:
-      "The rapid proliferation of consumer Internet of Things (IoT) devices has created vast attack surfaces vulnerable to cyber threats, data tampering, and impending post-quantum cryptographic breaches. Traditional blockchain networks suffer from high computational overhead and vulnerability to Shor's and Grover's quantum search algorithms. This paper introduces a quantum-resistant blockchain framework tailored for consumer IoT networks. By incorporating quantum digital signatures (QDS) and post-quantum cryptographic primitives into a lightweight consensus protocol, the framework ensures immutable data logging, quantum-safe identity verification, and efficient transaction processing without straining resource-constrained consumer devices.",
+      "Complex-network analysis of an image watermarking scheme using singular value decomposition and discrete wavelet transform features.",
   },
   {
-    title:
-      "DemocracyGuard: Blockchain-based secure voting framework for digital democracy",
-    authors:
-      "Mritunjay Shall Peelam, Gaurav Kumar, Kunjan Shah, and Vinay Chamola",
-    venue: "Expert Systems",
-    year: 2025,
-    citations: 39,
-    tags: ["Q2 Journal", "SCIE Indexed", "Impact Factor: 2.3"],
-    abstract:
-      "Digital voting systems face intense scrutiny regarding voter anonymity, coercion resistance, ballot verifiability, and resistance against central authority tampering. DemocracyGuard introduces a novel decentralized electronic voting system leveraging permissioned blockchain ledgers, zero-knowledge proofs (ZKP), and ring signatures. Voters execute tamper-evident transactions recorded on a distributed ledger, allowing public end-to-end auditability while strictly preserving voter identity confidentiality. We conduct security evaluations against double-voting, Sybil attacks, and man-in-the-middle exploits, demonstrating low latency and high scalability across national-scale election simulations.",
-  },
-  {
-    title:
-      "A comprehensive survey on data converters for IoT applications: Scope, issues and future directions",
-    authors: "Mritunjay Shall Peelam and collaborators",
-    venue: "International Journal of Circuit Theory and Applications",
+    title: "Machine Learning-Based Stability Prediction and Analysis of Polypropylene Cu-MA Superhydrophobic Coating on the Aluminum Substrate",
+    authors: "Himanshu Prasad Mamgain, Rahul Pal, Sanoj Kumar, Ranjeet Brajpuriya, and Jitendra K Pandey",
+    venue: "The Journal of Physical Chemistry C",
     year: 2024,
-    citations: 27,
-    tags: ["Journal", "Scopus Indexed"],
+    citations: 0,
+    tags: ["SCI", "Impact Factor: 3.3"],
     abstract:
-      "Analog-to-Digital Converters (ADCs) and Digital-to-Analog Converters (DACs) are fundamental building blocks in Internet of Things (IoT) edge sensors, translating real-world analog signals into digital streams for processing. Designing data converters for IoT requires balancing ultra-low power consumption, high signal-to-noise-and-distortion ratios (SINAD), dynamic range, and compact silicon area. This survey provides an in-depth examination of ADC/DAC architectures—including Successive Approximation Register (SAR), Delta-Sigma (ΔΣ), and Pipelined topologies—optimized for IoT sensor interfaces. We categorize circuit design strategies, trade-offs, and identify emerging trends in neuromorphic and event-driven data conversion.",
+      "Machine learning methods for predicting and analyzing coating stability on aluminum substrates in materials science applications.",
   },
   {
-    title:
-      "V-Track: Blockchain-enabled IoT system for reliable vehicle location verification",
-    authors: "Mritunjay Shall Peelam, Kunjan Shah, and Vinay Chamola",
-    venue: "Digital Communications and Networks",
+    title: "Unveiling anomalies: harnessing machine learning for detection and insights",
+    authors: "Shubh Gupta, Sanoj Kumar, Karan Singh, and Deepika Saini",
+    venue: "Engineering Research Express",
     year: 2024,
-    citations: 22,
-    tags: ["Q1 Journal", "SCIE Indexed", "Impact Factor: 7.5"],
+    citations: 0,
+    tags: ["SCI", "Impact Factor: 1.5"],
+    doi: "https://doi.org/10.1088/2631-8695/ad66b2",
     abstract:
-      "Location-based services in Intelligent Transportation Systems (ITS) rely heavily on Global Positioning System (GPS) data, which is susceptible to spoofing, jamming, and malicious location falsification by rogue drivers or cyber attackers. V-Track presents a decentralized, tamper-proof location verification architecture that fuses IoT onboard diagnostics (OBD), road-side unit (RSU) multi-lateration, and blockchain immutability. Through a consensus mechanism validating spatial-temporal vehicle trajectories, V-Track detects and rejects falsified location claims in real-time, providing reliable proof-of-location for tolling, usage-based insurance, and autonomous fleet dispatching.",
+      "Machine learning methods for anomaly detection, insight generation, and data-driven interpretation in applied engineering settings.",
   },
   {
-    title:
-      "Blockchain-enabled vehicle lifecycle management with predictive maintenance using federated learning",
-    authors:
-      "Mritunjay Shall Peelam, Kunjan Shah, Vinay Chamola, and Biplab Sikdar",
-    venue: "IEEE Transactions on Consumer Electronics",
+    title: "Inverse Geometric Reconstruction Based on MW-NURBS Curves",
+    authors: "Musrrat Ali, Deepika Saini, and Sanoj Kumar",
+    venue: "Mathematics",
     year: 2024,
-    citations: 17,
-    tags: ["Q1 Journal", "SCIE Indexed", "Impact Factor: 10.9"],
+    citations: 0,
+    tags: ["SCI", "Impact Factor: 2.2"],
     abstract:
-      "Maintaining verifiable vehicle historical records—such as mileage, service history, accident logs, and component wear—is critical for second-hand market valuation and automotive safety. However, centralized databases are vulnerable to data manipulation, while sharing raw vehicle sensor data raises severe user privacy concerns. This paper proposes a hybrid architecture combining permissioned blockchain ledgers with privacy-preserving Federated Learning (FL). Blockchain immutability guarantees verifiable lifecycle logging, while FL nodes collaboratively train predictive maintenance models on distributed onboard diagnostics data without exposing sensitive location or driving pattern history.",
+      "Inverse geometric reconstruction using MW-NURBS curves for precise modeling of curve and shape information.",
   },
   {
-    title: "Enhancing security using quantum computing (ESUQC)",
-    authors: "Mritunjay Shall Peelam and Rahul Johari",
-    venue:
-      "Machine Learning, Advances in Computing, Renewable Energy and Communication",
+    title: "Edge Computing Enabled Abnormal Activity Recognition for Visual Surveillance",
+    authors: "Musrrat Ali, Lakshay Goyal, CM Sharma, and Sanoj Kumar",
+    venue: "Electronics",
+    year: 2024,
+    citations: 0,
+    tags: ["SCI", "Impact Factor: 2.690"],
+    doi: "https://doi.org/10.3390/electronics13020251",
+    abstract:
+      "An edge-computing enabled visual surveillance framework for detecting abnormal activities with efficient computer vision pipelines.",
+  },
+  {
+    title: "A Robust Zero-Watermarking Scheme in Spatial Domain by Achieving Features Similar to Frequency Domain",
+    authors: "Musrrat Ali and Sanoj Kumar",
+    venue: "Electronics",
+    year: 2024,
+    citations: 0,
+    tags: ["SCI", "Impact Factor: 2.690"],
+    doi: "https://doi.org/10.3390/electronics13020435",
+    abstract:
+      "A robust spatial-domain zero-watermarking approach designed to achieve feature behavior comparable to frequency-domain methods.",
+  },
+  {
+    title: "Graph-and Machine-Learning-Based Texture Classification",
+    authors: "Musrrat Ali, Sanoj Kumar, Rahul Pal, Manoj K Singh, and Deepika Saini",
+    venue: "Electronics",
+    year: 2023,
+    citations: 0,
+    tags: ["SCI", "Impact Factor: 2.690"],
+    doi: "https://doi.org/10.3390/electronics12224626",
+    abstract:
+      "Graph-based and machine-learning methods for texture classification in image analysis applications.",
+  },
+  {
+    title: "Application of a novel image moment computation in X-ray and MRI image watermarking",
+    authors: "Manoj K. Singh, Sanoj Kumar, Musrrat Ali, and Deepika Saini",
+    venue: "IET Image Processing",
     year: 2021,
-    citations: 11,
-    tags: ["Conference", "Scopus Indexed"],
+    citations: 0,
+    tags: ["SCI", "Impact Factor: 2.373"],
     abstract:
-      "As classical encryption algorithms face vulnerability against quantum computational capabilities, developing proactive quantum-safe cybersecurity protocols is imperative. This work investigates Quantum Key Distribution (QKD) and quantum-assisted cryptographic protocols designed to enhance communication security in distributed networks. We evaluate quantum mechanical principles including photon polarization, entanglement states, and the No-Cloning Theorem to build eavesdropping-detection mechanisms. Experimental simulation results confirm superior key security and real-time intrusion detection capabilities under adversarial conditions.",
+      "Novel image moment computation applied to medical image watermarking for X-ray and MRI imagery.",
   },
   {
-    title:
-      "Blockchain-Based Game Theoretical Framework for V2V and V2G Energy Trading in Carbon-Intelligent Internet of Vehicles",
-    authors:
-      "Mritunjay Shall Peelam, Vinay Chamola, Siva Sai, and Pranay Jalan",
-    venue: "IEEE Internet of Things Journal",
-    year: 2025,
-    citations: 10,
-    tags: ["Q1 Journal", "SCIE Indexed", "Impact Factor: 8.9"],
+    title: "Dual Tree Fractional Quaternion Wavelet Transform for Disparity Estimation",
+    authors: "Sanoj Kumar, Sanjeev Kumar, Balasubramanian Raman, and N. Sukavanam",
+    venue: "ISA Transactions",
+    year: 2014,
+    citations: 0,
+    tags: ["SCI", "Impact Factor: 5.991"],
     abstract:
-      "The transition toward carbon-aware smart grids demands decentralized, secure, and incentivized energy trading between Electric Vehicles (EVs), Vehicle-to-Vehicle (V2V) networks, and Vehicle-to-Grid (V2G) infrastructures. This paper presents a decentralized energy trading framework built on Hyperledger Fabric blockchain and Stackelberg game theory. The framework models dynamic pricing strategies, optimizing energy cost for buyers while maximizing revenue for EV suppliers. Smart contracts automate peer-to-peer energy matching, transaction settlement, and carbon-credit tracking, eliminating third-party broker fees while maintaining grid frequency stability.",
+      "A fractional quaternion wavelet transform approach for disparity estimation in image sequences.",
   },
   {
-    title:
-      "Blockchain-enabled intrusion detection systems for real-time vehicle monitoring",
-    authors:
-      "Mritunjay Shall Peelam, Vinay Chamola, and Brijesh Kumar Chaurasia",
-    venue: "Vehicular Communications",
-    year: 2025,
-    citations: 14,
-    tags: ["Q1 Journal", "SCIE Indexed", "Impact Factor: 6.5"],
+    title: "Image Disparity Estimation using Fractional Dual-Tree Complex Wavelet Transform: A Multi-Scale Approach",
+    authors: "Sanoj Kumar, Sanjeev Kumar, Nagarajan Sukavanam, and Balasubramanian Raman",
+    venue: "International Journal of Wavelets, Multiresolution and Information Processing",
+    year: 2013,
+    citations: 0,
+    tags: ["SCI", "Impact Factor: 1.408"],
+    doi: "https://doi.org/10.1142/S0219691313500045",
     abstract:
-      "Connected and Autonomous Vehicles (CAVs) generate continuous streams of telemetry data via in-vehicle Controller Area Networks (CAN) and external V2X links, making them vulnerable to malware injection, distributed denial-of-service (DDoS), and spoofing attacks. This paper develops a blockchain-enabled collaborative Intrusion Detection System (IDS) for real-time vehicular networks. Edge RSUs inspect telemetry traffic using lightweight machine learning classifiers, while a permissioned blockchain ledger aggregates threat intelligence across regional transportation zones, enabling instant cross-fleet signature updates without central point-of-failure vulnerabilities.",
+      "A multi-scale fractional dual-tree complex wavelet transform method for image disparity estimation.",
   },
   {
-    title:
-      "Decentralized trust: NFT and blockchain-enabled evidence system using fog computing",
-    authors:
-      "Mritunjay Shall Peelam, Vinay Chamola, Aditya Kumar Sharma, and Brijesh Kumar Chaurasia",
-    venue: "Blockchain: Research and Applications",
-    year: 2025,
-    citations: 15,
-    tags: ["Q1 Journal", "ESCI Indexed", "Impact Factor: 5.6"],
+    title: "Human Visual System and Segment-Based Disparity Estimation",
+    authors: "Sanoj Kumar, Sanjeev Kumar, Nagarajan Sukavanam, and Balasubramanian Raman",
+    venue: "International Journal of Electronics and Communications",
+    year: 2013,
+    citations: 0,
+    tags: ["SCI", "Impact Factor: 3.183"],
     abstract:
-      "Forensic evidence management in smart cities and law enforcement requires indisputable chain-of-custody tracking, zero data manipulation, and rapid access across multiple legal and law-enforcement entities. This paper introduces a fog-assisted decentralized evidence management architecture using non-fungible tokens (NFTs) and immutable blockchain ledgers. Digital evidence streams—such as video footage, IoT sensor logs, and biometric data—are captured at fog nodes, hashed into cryptographic NFTs, and recorded on a distributed ledger. This guarantees timestamp integrity, access-control auditing, and tamper-proof legal admissibility.",
-  },
-  {
-    title:
-      "Machine Learning Techniques for Wi-Fi CSI-based Recognition and Sensing: A Comprehensive Review",
-    authors:
-      "Siva Sai, Devansh Sharma, Mritunjay Shall Peelam, Vinay Chamola, Mohsen Guizani, and Dusit Niyato",
-    venue: "IEEE Internet of Things Journal",
-    year: 2026,
-    citations: 12,
-    tags: ["Q1 Journal", "SCIE Indexed", "Impact Factor: 8.9"],
-    abstract:
-      "Channel State Information (CSI) extracted from commodity Wi-Fi interfaces enables non-intrusive, device-free wireless sensing for human activity recognition, gait analysis, vital sign monitoring, and indoor positioning. By leveraging spatial-temporal amplitude and phase fluctuations, machine learning models decode complex human motions without requiring wearable hardware or cameras. This comprehensive survey systematically reviews ML and deep learning techniques for Wi-Fi CSI sensing. We analyze signal preprocessing, feature extraction, convolutional and recurrent neural network architectures, domain adaptation challenges, and identify key directions for multi-user, multi-environment industrial deployment.",
-  },
-  {
-    title:
-      "Blockchain-Enabled Secure V2V and V2G Energy Trading for Carbon-Aware Internet of Energy Networks",
-    authors: "Mritunjay Shall Peelam and Vinay Chamola",
-    venue: "IEEE Network",
-    year: 2026,
-    citations: 2,
-    tags: ["Q1 Journal", "SCIE Indexed", "Impact Factor: 6.3"],
-    abstract:
-      "Decentralized Internet of Energy (IoE) networks require transparent, carbon-intelligent mechanisms for trading surplus renewable energy among electric vehicles and distributed energy resources. This paper designs a high-throughput blockchain architecture tailored for real-time V2V and V2G carbon-aware energy settlements. Incorporating smart contracts for automated proof-of-energy verification and decentralized key management, the framework ensures secure peer-to-peer micro-transactions, reduces distribution network congestion, and incentivizes green charging behavior through tokenized carbon credits.",
-  },
-  {
-    title:
-      "Enhancing Quantum-Resistant Data Privacy in Vehicular Cloud Networks Using NIST-Qualified FALCON Algorithm",
-    authors:
-      "Shall Mritunjay Peelam, Brijesh Kumar Chaurasia, Man Mohan Shukla, and Vinay Chamola",
-    venue: "Vehicular Communications",
-    year: 2025,
-    citations: 1,
-    tags: ["Q1 Journal", "SCIE Indexed", "Impact Factor: 6.5"],
-    abstract:
-      "Vehicular Cloud Networks (VCNs) enable real-time traffic coordination, infotainment, and emergency message dissemination among connected vehicles. However, transmitting sensitive trajectory and diagnostic data exposes networks to quantum-era forgery and eavesdropping. This paper implements and benchmarks the NIST-standardized FALCON (Fast-Fourier lattice-based compact signatures over NTRU) post-quantum digital signature algorithm within VCN nodes. We measure signature generation, verification throughput, packet overhead, and memory consumption on vehicle onboard units, proving that FALCON provides robust quantum resistance with minimal communication latency.",
-  },
-  {
-    title:
-      "Blockchain-based framework for global IMEI blacklist management and mobile device theft prevention",
-    authors: "Mritunjay Shall Peelam and Vinay Chamola",
-    venue: "Blockchain: Research and Applications",
-    year: 2025,
-    citations: 1,
-    tags: ["Q1 Journal", "ESCI Indexed", "Impact Factor: 5.6"],
-    abstract:
-      "Mobile device theft and unauthorized IMEI reprogramming result in multi-billion dollar losses annually for global telecom operators and consumers. Existing centralized IMEI blacklists suffer from synchronization delays, regional fragmentation, and susceptibility to database manipulation. This paper proposes a unified, global IMEI management architecture powered by a permissioned Proof-of-Authority (PoA) blockchain network shared between telecom carriers, law enforcement, and equipment manufacturers. Storing device status changes on an immutable ledger enables instant global IMEI blacklisting, preventing stolen devices from registering on participating mobile networks worldwide.",
-  },
-  {
-    title:
-      "Enhancing Vehicle Lifecycle Management Through Blockchain-Driven Predictive Maintenance and Federated Learning",
-    authors:
-      "Mritunjay Shall Peelam, Kunjan Shah, Vinay Chamola, and Biplab Sikdar",
-    venue: "2024 IEEE GLOBECOM Workshops",
-    year: 2024,
-    citations: 1,
-    tags: ["Conference", "Scopus Indexed"],
-    abstract:
-      "Modern automotive fleets collect continuous sensor metrics capable of driving proactive maintenance and fault diagnosis. However, centralizing fleet data exposes proprietary manufacturer designs and vehicle owner privacy. Presented at the IEEE GLOBECOM Workshops, this paper designs a privacy-preserving framework integrating permissioned blockchain with Federated Learning (FL). Vehicle onboard diagnostics participate in decentralized FL model training to predict component degradation, while verified model update hashes and lifecycle milestones are immutably logged on a blockchain ledger.",
+      "Segment-based disparity estimation inspired by human visual system principles.",
   },
 ];
 
 const news = [
   {
-    date: "Aug 23, 2026",
-    text: "Elevated to the grade of Senior Member, IEEE.",
+    date: "Mar 2026",
+    text: "Elevated to Senior Associate Professor in the Data Science Cluster, SOCS, UPES Dehradun.",
     badge: "New",
   },
   {
-    date: "May 17, 2026",
-    text: "Recognized by Wiley for a Top Viewed Article 2025 in Expert Systems for “DemocracyGuard.”",
+    date: "Jul 2025",
+    text: "Convenor of FDP on Effective Pedagogy: Practice and Policy Alignment.",
   },
   {
-    date: "Mar 03, 2026",
-    text: "Post-Doctoral Fellowship Offer — IIT (BHU), Varanasi.",
-  },
-  { date: "Jul 17, 2025", text: "Successfully completed Ph.D. defense." },
-  {
-    date: "Apr 19, 2025",
-    text: "Outstanding Research Article Award at the BITS Pilani Doctoral Colloquium.",
+    date: "Jul 2024",
+    text: "Convenor of workshop on Deep Learning: From Foundations to Cutting-Edge Techniques.",
   },
   {
-    date: "Apr 15, 2025",
-    text: "Recognized among the Top 10 Most-Cited Papers in IET Quantum Communication.",
+    date: "2024",
+    text: "Edited book Artificial Intelligence in Healthcare published by CRC Press.",
+  },
+  {
+    date: "2023-2024",
+    text: "Received Best Teachers Award at UPES.",
+  },
+  {
+    date: "2020",
+    text: "Received Best Paper Award and Young Scientist Award at NETCRYPT.",
   },
 ];
 
@@ -452,102 +375,129 @@ const travelPosts = [
 
 const courses = [
   {
-    title: "Software Engineering",
-    year: "2026",
-    image: "/media/software-engineering.jpg",
-    description:
-      "SDLC, requirements, design, testing, maintenance, and teamwork for reliable software systems.",
-    topics: ["Introduction", "Life Cycle Models", "Requirements", "Testing"],
-  },
-  {
-    title: "Operating Systems",
-    year: "2026",
-    image: "/media/operating-systems.jpg",
-    description:
-      "Processes, memory, scheduling, synchronization, storage, and resource control.",
-    topics: ["Processes", "Scheduling", "Memory", "File Systems"],
-  },
-  {
-    title: "Data Structures",
+    title: "Introduction to Data Science",
     year: "2026",
     image: "/media/data-structures.jpg",
     description:
-      "Core data structures, design trade-offs, and efficient problem solving.",
-    topics: ["Arrays", "Linked Lists", "Trees", "Graphs"],
+      "Data-driven thinking, statistics, computational tools, and introductory machine learning workflows.",
+    topics: ["Data", "Statistics", "Python", "Models"],
   },
   {
-    title: "Computer Organization",
+    title: "Machine Learning",
     year: "2026",
     image: "/media/computer-organization.jpg",
     description:
-      "Digital logic, instruction execution, memory hierarchy, and processor design.",
-    topics: ["Logic", "CPU", "Memory", "I/O"],
+      "Supervised and unsupervised learning, model evaluation, optimization, and applied AI problem solving.",
+    topics: ["Regression", "Classification", "Clustering", "Evaluation"],
+  },
+  {
+    title: "Digital Image Processing and Machine Vision",
+    year: "2026",
+    image: "/media/software-engineering.jpg",
+    description:
+      "Image enhancement, segmentation, feature extraction, object analysis, and computer vision pipelines.",
+    topics: ["Images", "Segmentation", "Features", "Vision"],
+  },
+  {
+    title: "Probability and Statistics",
+    year: "2026",
+    image: "/media/operating-systems.jpg",
+    description:
+      "Probability models, inference, estimation, hypothesis testing, and statistical foundations for data science.",
+    topics: ["Probability", "Inference", "Testing", "Estimation"],
   },
 ];
 
 const cvSections = {
   Education: [
     {
-      period: "2022 — 2025",
-      title: "Ph.D. in Electrical and Electronics Engineering",
-      place: "Birla Institute of Technology and Science, Pilani",
+      period: "2008 - 2013",
+      title: "Ph.D. in Applied Mathematics",
+      place: "Indian Institute of Technology Roorkee, India",
       detail:
-        "Design and Development of Blockchain-based Schemes for Enabling Intelligent Transportation Systems.",
+        "Thesis: Robust Estimation of Optical Flow and Disparity Map from Image Sequences. Advisors: Prof. N. Sukavanam and Dr. R. Balasubramanian.",
     },
     {
-      period: "2019 — 2021",
-      title: "M.Tech. in Computer Science and Engineering",
-      place:
-        "University School of Information, Communication and Technology, New Delhi",
-      detail: "Graduated with 87.60%.",
+      period: "2003 - 2005",
+      title: "M.Sc. in Mathematics",
+      place: "Ch. Charan Singh University, Meerut, India",
+      detail: "First division.",
     },
     {
-      period: "2008 — 2012",
-      title: "B.Tech. in Computer Science and Engineering",
-      place: "Institution of Electronics and Telecommunication Engineers",
-      detail: "Graduated with a CGPA of 7.60/10.",
+      period: "2000 - 2003",
+      title: "B.Sc. in Mathematics",
+      place: "Ch. Charan Singh University, Meerut, India",
+      detail: "First division.",
     },
     {
-      period: "2008",
-      title: "Class XII",
-      place: "Guru Nanak Inter College, Mirzapur",
-      detail: "BHSIEUP · 65.00%.",
+      period: "2000",
+      title: "Intermediate",
+      place: "Ch. Bharat Singh DAV Inter College, Jhabrera, Haridwar, Uttarakhand",
+      detail: "First division.",
     },
     {
-      period: "2006",
-      title: "Class X",
-      place: "Sarvoday Public School, Pandari, Mirzapur",
-      detail: "BHSIEUP · 67.50%.",
+      period: "1998",
+      title: "High School",
+      place: "Ch. Bharat Singh DAV Inter College, Jhabrera, Haridwar, Uttarakhand",
+      detail: "First division.",
     },
   ],
   Experience: [
     {
-      period: "2025 — Present",
-      title: "Assistant Professor (Selection Grade) & Research Faculty",
-      place: "UPES Dehradun",
+      period: "Mar 2026 - Present",
+      title: "Senior Associate Professor",
+      place: "Data Science Cluster, SOCS, UPES Dehradun",
       detail:
-        "Teaching, research mentoring, curriculum development, and research in intelligent transportation and secure smart systems.",
+        "Teaching, tutorials, research supervision, curriculum contribution, and academic service in data science and applied mathematics.",
     },
     {
-      period: "2021 — 2022",
-      title: "Assistant Professor",
-      place: "Pranveer Singh Institute of Technology, Kanpur",
+      period: "Mar 2025 - Present",
+      title: "Associate Professor",
+      place: "Data Science Cluster, SOCS, UPES Dehradun",
       detail:
-        "Taught Java, C, C++, data structures, and core computing subjects.",
+        "Academic duties including lectures, tutorials, research mentoring, and departmental responsibilities.",
     },
     {
-      period: "2012 — 2019",
-      title: "Programming Language Trainer",
-      place: "Tejas Engineers Academy, New Delhi",
+      period: "Jun 2023 - Present",
+      title: "Assistant Professor (Selection Grade)",
+      place: "Data Science Cluster, SOCS, UPES Dehradun",
       detail:
-        "Trained students in C, C++, Java, and core computer science subjects.",
+        "Teaching and research work across mathematics, data science, machine learning, and image processing.",
     },
     {
-      period: "2012",
-      title: "Java and Advanced Java Intern",
-      place: "HCL CDC, New Delhi",
+      period: "Jan 2018 - May 2023",
+      title: "Assistant Professor (Selection Grade)",
+      place: "Department of Mathematics, UPES Dehradun",
       detail:
-        "Hands-on exposure to practical software development with Java technologies.",
+        "Lectures, tutorials, research work, and student mentoring in mathematics and computational subjects.",
+    },
+    {
+      period: "Jan 2015 - Dec 2017",
+      title: "Assistant Professor (Senior Scale)",
+      place: "Department of Mathematics, UPES Dehradun",
+      detail:
+        "Teaching and academic responsibilities in applied mathematics and numerical methods.",
+    },
+    {
+      period: "Oct 2013 - Sep 2014",
+      title: "Postdoctoral Fellow",
+      place: "Department of Mathematics and Computer Science, University of Udine, Italy",
+      detail:
+        "Postdoctoral research in mathematics, computer science, and image-analysis related areas.",
+    },
+    {
+      period: "2008 - 2013",
+      title: "Teaching Assistant and MHRD Research Fellow",
+      place: "Department of Mathematics, IIT Roorkee",
+      detail:
+        "Tutorials and labs for calculus, numerical analysis, image processing, and computer applications.",
+    },
+    {
+      period: "2006 - 2008",
+      title: "Guest Lecturer",
+      place: "Department of Mathematics, MNNIT Allahabad",
+      detail:
+        "Lectures, tutorials, and labs for Mathematics I, II, III, Numerical Analysis, and Business Mathematics.",
     },
   ],
 };
@@ -604,12 +554,12 @@ function Header({
       />
       <nav className="nav-pill" aria-label="Main navigation">
         {section !== "home" && (
-          <Link className="desktop-page-brand" href="/" aria-label="Dr. Mritunjay Shall Peelam Home">
-            <strong>Dr. Mritunjay</strong>&nbsp;Shall Peelam
+          <Link className="desktop-page-brand" href="/" aria-label="Dr. Sanoj Kumar Home">
+            <strong>Dr. Sanoj</strong>&nbsp;Kumar
           </Link>
         )}
-        <Link className="mobile-page-brand" href="/" aria-label="Dr. Mritunjay Shall Peelam Home">
-          <strong>Dr. Mritunjay</strong>&nbsp;Shall Peelam
+        <Link className="mobile-page-brand" href="/" aria-label="Dr. Sanoj Kumar Home">
+          <strong>Dr. Sanoj</strong>&nbsp;Kumar
         </Link>
 
         <div className={`nav-links ${mobileOpen ? "is-open" : ""}`}>
@@ -854,10 +804,10 @@ function PublicationCard({
         </div>
         <h3>{publication.title}</h3>
         <p className="authors">
-          {publication.authors.split("Mritunjay Shall Peelam").map((part, i, arr) => (
+          {publication.authors.split("Sanoj Kumar").map((part, i, arr) => (
             <span key={`${part}-${i}`}>
               {part}
-              {i < arr.length - 1 && <strong className="author-highlight">Mritunjay Shall Peelam</strong>}
+              {i < arr.length - 1 && <strong className="author-highlight">Sanoj Kumar</strong>}
             </span>
           ))}
         </p>
@@ -1037,13 +987,13 @@ function SocialStrip() {
     {
       id: "cv",
       label: "Download CV",
-      href: "/documents/Dr-Mritunjay-resume.pdf",
+      href: "/documents/Sanoj-Kumar-updated.pdf",
       icon: FaFileLines,
     },
     {
       id: "email",
       label: "Email",
-      href: "mailto:mritunjay.peelam@ddn.upes.ac.in",
+      href: "mailto:sanoj.kumar@upes.ac.in",
       icon: FaEnvelope,
     },
     {
@@ -1061,13 +1011,13 @@ function SocialStrip() {
     {
       id: "whatsapp",
       label: "WhatsApp",
-      href: "https://wa.me/918745080986",
+      href: "https://wa.me/919058523010",
       icon: SiWhatsapp,
     },
     {
       id: "linkedin",
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/mritunjay-shall-peelam",
+      href: "https://www.linkedin.com/in/dr-sanoj-kumar",
       icon: FaLinkedinIn,
     },
     {
@@ -1175,8 +1125,8 @@ function SocialStrip() {
         </div>
         <div className="contact-note">
           The best way to reach me is via email at{" "}
-          <a href="mailto:mritunjay.peelam@ddn.upes.ac.in">
-            mritunjay.peelam@ddn.upes.ac.in
+          <a href="mailto:sanoj.kumar@upes.ac.in">
+            sanoj.kumar@upes.ac.in
           </a>
           .
         </div>
@@ -1210,14 +1160,14 @@ function HomePage() {
         <div className="portrait-ring">
           <img
             src="/media/profile.png"
-            alt="Dr. Mritunjay Shall Peelam"
+            alt="Dr. Sanoj Kumar"
             width={190}
             height={190}
           />
         </div>
         <h1>
           <span className="font-weight-bold">
-            Dr. Mritunjay Shall Peelam
+            Dr. Sanoj Kumar
           </span>
         </h1>
         <div className="credentials">
@@ -1227,7 +1177,7 @@ function HomePage() {
               className="about-bullet-lottie"
             />
             <span>
-              <strong>Assistant Professor (Selection Grade) & Research Faculty</strong> at{" "}
+              <strong>Senior Associate Professor</strong> at{" "}
               <a href="https://www.upes.ac.in/">UPES Dehradun, Uttarakhand</a>
             </span>
           </p>
@@ -1237,7 +1187,7 @@ function HomePage() {
               className="about-bullet-lottie"
             />
             <span>
-              <strong>Senior Member, IEEE</strong>
+              <strong>IEEE Member and active reviewer</strong>
             </span>
           </p>
           <p>
@@ -1246,9 +1196,9 @@ function HomePage() {
               className="about-bullet-lottie"
             />
             <span>
-              <strong>Ph.D.</strong> from{" "}
-              <a href="https://www.bits-pilani.ac.in/">
-                BITS Pilani, Pilani Campus
+              <strong>Ph.D. in Applied Mathematics</strong> from{" "}
+              <a href="https://www.iitr.ac.in/">
+                IIT Roorkee
               </a>
             </span>
           </p>
@@ -1258,8 +1208,8 @@ function HomePage() {
               className="about-bullet-lottie"
             />
             <span>
-              <strong>M.Tech.</strong> from{" "}
-              <a href="https://www.ipu.ac.in/">USICT, New Delhi, India</a>
+              <strong>M.Sc. Mathematics</strong> from{" "}
+              <a href="https://www.ccsuniversity.ac.in/">Ch. Charan Singh University, Meerut</a>
             </span>
           </p>
           <p>
@@ -1268,8 +1218,8 @@ function HomePage() {
               className="about-bullet-lottie"
             />
             <span>
-              <strong>Research Areas:</strong> Blockchain, IoT, Edge AI,
-              Multimodal ML
+              <strong>Research Areas:</strong> Mathematical Statistics, Optimization,
+              Computer Vision, Machine Learning
             </span>
           </p>
         </div>
@@ -1277,38 +1227,27 @@ function HomePage() {
 
       <article className="bio copy">
         <p>
-          I am currently an Assistant Professor (Selection Grade) and Research Faculty at{" "}
-          <a href="https://www.upes.ac.in/">UPES Dehradun, Uttarakhand</a>.
-          Previously, I worked as an Assistant Professor at Pranveer Singh
-          Institute of Technology (PSIT), Kanpur, and as a Programming Language
-          Trainer at Tejas Engineers Academy, New Delhi, where I trained
-          students in core computer science subjects.
+          I am Dr. Sanoj Kumar, Senior Associate Professor in the Data Science
+          Cluster, School of Computer Science, UPES Dehradun. My work connects
+          applied mathematics, statistics, optimization, digital image
+          processing, computer vision, machine learning, and deep learning.
         </p>
         <p>
-          I completed my Ph.D. from{" "}
-          <a href="https://www.bits-pilani.ac.in/">BITS Pilani</a>. My research focuses on
-          blockchain-based solutions for intelligent transportation systems,
-          integrating Blockchain, Internet of Things (IoT), Edge AI, Federated
-          Learning, and Multimodal Machine Learning.
+          I completed my Ph.D. in Applied Mathematics from IIT Roorkee with a
+          thesis on robust estimation of optical flow and disparity maps from
+          image sequences. I later served as a Postdoctoral Fellow at the
+          University of Udine, Italy.
         </p>
         <p>
-          I have published research articles in IEEE Internet of Things
-          Journal, IEEE Transactions on Intelligent Transportation Systems,
-          IEEE Transactions on Consumer Electronics, IEEE Access, Wiley, and
-          Elsevier, and presented work at international venues including IEEE
-          GLOBECOM.
+          My research portfolio includes medical image analysis, brain MRI and
+          tumor segmentation, image watermarking, NURBS-based reconstruction,
+          texture classification, visual surveillance, anomaly detection, and
+          AI-driven mathematical modeling.
         </p>
         <p>
-          I consider myself a researcher focused on solving real-world
-          problems using advanced technologies. I am particularly interested
-          in developing secure, scalable, and intelligent systems, especially
-          in domains such as transportation and smart environments.
-        </p>
-        <p>
-          As part of my research, I am primarily interested in Blockchain,
-          IoT, Edge AI, Federated Learning, and Multimodal Machine Learning. I
-          also work on topics related to intelligent systems, distributed
-          computing, and emerging technologies.
+          I have supervised doctoral, postgraduate, undergraduate, and minor
+          projects, and I actively contribute through teaching, FDPs, workshops,
+          reviewing, and conference service.
         </p>
       </article>
 
@@ -1338,7 +1277,7 @@ function HomePage() {
               <span className="update-category-tag tag-membership">Professional Honor</span>
               <time className="update-date">Aug 23, 2026</time>
             </div>
-            <strong>Senior Member, IEEE</strong>
+            <strong>IEEE Member and active reviewer</strong>
             <p className="update-description">Elevated to IEEE Senior Member grade in recognition of significant professional experience and contributions to engineering and research.</p>
             <span className="update-card-footer">View Achievement <ChevronRight size={14} /></span>
           </Link>
@@ -1365,8 +1304,8 @@ function HomePage() {
               <span className="update-category-tag tag-fellowship">Fellowship</span>
               <time className="update-date">Mar 03, 2026</time>
             </div>
-            <strong>Post-Doctoral Offer — IIT (BHU) Varanasi</strong>
-            <p className="update-description">Awarded Post-Doctoral Research Fellowship at IIT (BHU), Varanasi.</p>
+            <strong>Postdoctoral Research - University of Udine</strong>
+            <p className="update-description">Awarded Postdoctoral Fellow, Department of Mathematics and Computer Science, University of Udine, Italy.</p>
             <span className="update-card-footer">View Details <ChevronRight size={14} /></span>
           </Link>
           <Link href="/publications" className="update-card">
@@ -1720,8 +1659,8 @@ function TeachingPage() {
     <section className="page-section">
       <div className="teaching-hero">
         <p className="eyebrow">Learning studio</p>
-        <h1>MSP Tutorial</h1>
-        <strong>Dr. Mritunjay Shall Peelam</strong>
+        <h1>Sanoj Kumar Teaching Studio</h1>
+        <strong>Dr. Sanoj Kumar</strong>
         <p>
           Education is where curiosity becomes discipline, and discipline
           becomes transformation.
@@ -1772,29 +1711,27 @@ function CvPage() {
     <section className="page-section cv-page">
       <div className="cv-hero">
         <div className="cv-avatar-ring">
-          <img src="/media/profile-color.jpg" alt="Dr. Mritunjay Shall Peelam" />
+          <img src="/media/profile-color.jpg" alt="Dr. Sanoj Kumar" />
         </div>
         <div>
           <p className="eyebrow">Academic curriculum vitae</p>
-          <h1>Dr. Mritunjay Shall Peelam</h1>
-          <strong>Assistant Professor (Selection Grade) & Research Faculty, UPES Dehradun</strong>
+          <h1>Dr. Sanoj Kumar</h1>
+          <strong>Senior Associate Professor, UPES Dehradun</strong>
           <strong className="cv-membership">Senior Member, IEEE</strong>
           <p>
-            Ph.D. researcher working at the intersection of blockchain,
-            intelligent transportation, IoT, Edge AI, federated learning, and
-            multimodal machine learning.
+            Applied mathematics and data science researcher working across mathematical statistics, optimization, digital image processing, computer vision, machine learning, and deep learning.
           </p>
           <div className="cv-actions">
             <a
               className="primary-link"
-              href="/documents/Dr-Mritunjay-resume.pdf"
-              download="Dr-Mritunjay-Shall-Peelam-Resume.pdf"
+              href="/documents/Sanoj-Kumar-updated.pdf"
+              download="Sanoj-Kumar-Resume.pdf"
             >
               <Download size={17} /> Download PDF
             </a>
             <a
               className="secondary-link"
-              href="mailto:mritunjay.peelam@ddn.upes.ac.in"
+              href="mailto:sanoj.kumar@upes.ac.in"
             >
               <Mail size={17} /> Email
             </a>
@@ -1837,9 +1774,9 @@ function CvPage() {
         <div className="detail-grid">
           {[
             [
-              "QIoTChain",
-              "Quantum IoT-Blockchain fusion framework combining post-quantum cryptographic primitives, lattice-based signatures, and distributed ledgers for Industry 4.0 data protection.",
-              "IET Blockchain · 2024",
+              "QMachine LearningChain",
+              "Quantum Machine Learning-Computer Vision fusion framework combining post-quantum cryptographic primitives, lattice-based signatures, and distributed ledgers for Industry 4.0 data protection.",
+              "IET Image Processing · 2024",
             ],
             [
               "EVM ITS",
@@ -1853,7 +1790,7 @@ function CvPage() {
             ],
             [
               "V-Track",
-              "Blockchain-enabled IoT system for reliable vehicle location verification, fusing OBD sensors, RSU multi-lateration, and spatial-temporal consensus.",
+              "Computer Vision-enabled Machine Learning system for reliable vehicle location verification, fusing OBD sensors, RSU multi-lateration, and spatial-temporal consensus.",
               "Digital Communications and Networks · 2024",
             ],
             [
@@ -1862,13 +1799,13 @@ function CvPage() {
               "IEEE Internet of Things Journal · 2025",
             ],
             [
-              "Quantum-Safe Consumer IoT",
+              "Quantum-Safe Consumer Machine Learning",
               "Explorative deployment of Quantum Key Distribution (QKD) BB84/E91 protocols and quantum digital signatures for resource-constrained smart home nodes.",
               "IEEE Transactions on Consumer Electronics · 2024",
             ],
             [
               "Vehicular Predictive Maintenance",
-              "Privacy-preserving Federated Learning (FL) combined with immutable blockchain ledgers for decentralized vehicle component fault diagnosis.",
+              "Privacy-preserving Statistical Modeling (FL) combined with immutable blockchain ledgers for decentralized vehicle component fault diagnosis.",
               "IEEE Transactions on Consumer Electronics · 2024",
             ],
             [
@@ -1904,10 +1841,10 @@ function CvPage() {
         <SectionTitle eyebrow="Capabilities">Research & Skills</SectionTitle>
         <div className="skill-grid">
           {[
-            ["Research", "Blockchain, IoT, Edge AI, Federated Learning"],
-            ["Programming", "C, C++, Java, Python, JavaScript, Go, C#"],
-            ["Core Subjects", "Data Structures, OS, DBMS, Networks, Algorithms"],
-            ["Tools", "LaTeX, Overleaf, Matplotlib, Cryptography, ML"],
+            ["Research", "Mathematical Statistics, Optimization, Computer Vision, Machine Learning"],
+            ["Programming", "C, C++, Python, Matlab, Mathematica"],
+            ["Core Subjects", "Probability and Statistics, Numerical Analysis, Data Science, Image Processing"],
+            ["Tools", "OpenCV, MS Office, LaTeX, SmartDraw"],
           ].map(([title, text]) => (
             <div className="skill-card" key={title}>
               <Code2 size={19} />
@@ -1922,7 +1859,7 @@ function CvPage() {
         <div className="award-grid">
           {[
             "Wiley Top Viewed Article 2025",
-            "Outstanding Research Article Award — BITS Pilani",
+            "Outstanding Research Article Award — IIT Roorkee",
             "Top 10 Most-Cited Paper — IET Quantum Communication",
             "IETE Academic Top 10",
           ].map((title) => (
@@ -1952,12 +1889,12 @@ function CvPage() {
             ["2022", "Project Management", "E&ICT Academy, IIT Kanpur"],
             [
               "2022",
-              "Quantum Computing — Building Concepts Advanced FDP",
+              "Computer Vision — Building Concepts Advanced FDP",
               "Amity University Uttar Pradesh",
             ],
             [
               "2020",
-              "Quantum Computing",
+              "Computer Vision",
               "Malaviya National Institute of Technology Jaipur",
             ],
           ].map(([year, title, issuer]) => (
@@ -1979,7 +1916,7 @@ function CvPage() {
             <em>Intelligent Transportation Systems</em>,{" "}
             <em>Cognitive Computation</em>,{" "}
             <em>Computers and Electrical Engineering</em>, and{" "}
-            <em>IET Blockchain</em>.
+            <em>IET Image Processing</em>.
           </p>
           <p>
             Presented research at international venues including IEEE Global
@@ -2029,8 +1966,8 @@ function CvPage() {
           <p>
             <strong>Additional Emails</strong>
             <span>
-              mritunjay.peelam@pilani.bits-pilani.ac.in ·
-              mritunjay.peelam@ddn.upes.ac.in
+              sanojdma@gmail.com ·
+              sanoj.kumar@upes.ac.in
             </span>
           </p>
         </div>
@@ -2049,11 +1986,11 @@ function CvPage() {
             ],
             [
               "Prof. G. Sai Sesha Chalapathi",
-              "BITS Pilani · gssc@pilani.bits-pilani.ac.in",
+              "IIT Roorkee · gssc@pilani.bits-pilani.ac.in",
             ],
             [
               "Prof. Tejasvi Alladi",
-              "BITS Pilani · tejasvi.alladi@pilani.bits-pilani.ac.in",
+              "IIT Roorkee · tejasvi.alladi@pilani.bits-pilani.ac.in",
             ],
             [
               "Prof. Brijesh Kumar Chaurasia",
@@ -2157,7 +2094,7 @@ function AwardsPage() {
       title: "Wiley Top Viewed Article 2025",
       organization: "Wiley & Sons Journal Publishing",
       detail:
-        "Recognized for DemocracyGuard: Blockchain-based secure voting framework for digital democracy.",
+        "Recognized for Best Paper Award and Young Scientist Award at NETCRYPT 2020.",
     },
     {
       year: "2026",
@@ -2175,9 +2112,9 @@ function AwardsPage() {
       badge: "Doctoral Award",
       icon: Award,
       title: "Outstanding Research Article Award",
-      organization: "BITS Pilani EEE Department",
+      organization: "IIT Roorkee EEE Department",
       detail:
-        "BITS Pilani Doctoral Colloquium recognition for work on emergency vehicle management.",
+        "IIT Roorkee Doctoral Colloquium recognition for work on emergency vehicle management.",
     },
     {
       year: "2025",
@@ -2187,16 +2124,16 @@ function AwardsPage() {
       title: "Top 10 Most-Cited Paper Award",
       organization: "IET Quantum Communication",
       detail:
-        "Recognition from IET Quantum Communication for Quantum Computing Applications for IoT.",
+        "Recognition for teaching excellence at UPES in 2023 and 2024.",
     },
     {
       year: "2022",
       category: "fdp" as const,
       badge: "Quantum FDP",
       icon: BookOpen,
-      title: "Quantum Computing Advanced FDP",
+      title: "Computer Vision Advanced FDP",
       organization: "Amity University",
-      detail: "Faculty development programme on Quantum Computing - Building Concepts Advanced.",
+      detail: "Faculty development programme on Computer Vision - Building Concepts Advanced.",
     },
     {
       year: "2022",
@@ -2212,7 +2149,7 @@ function AwardsPage() {
       category: "fdp" as const,
       badge: "Professional Program",
       icon: GraduationCap,
-      title: "Quantum Computing PDP",
+      title: "Computer Vision PDP",
       organization: "MNIT Jaipur",
       detail:
         "Professional development programme at Malaviya National Institute of Technology Jaipur.",
@@ -2307,18 +2244,18 @@ function ProfilesPage() {
     {
       name: "LinkedIn",
       note: "Academic experience and professional network",
-      href: "https://www.linkedin.com/in/mritunjay-shall-peelam",
+      href: "https://www.linkedin.com/in/dr-sanoj-kumar",
       icon: FaLinkedinIn,
     },
     {
       name: "GitHub",
       note: "Code, experiments, teaching resources, and repositories",
-      href: "https://github.com/shall786",
+      href: "https://github.com/sanoj1983github",
       icon: SiGithub,
     },
     {
       name: "YouTube",
-      note: "MSP Tutorial lectures and computer science learning",
+      note: "Sanoj Kumar Teaching Studio lectures and computer science learning",
       href: "https://youtube.com/@msptutorial7884",
       icon: SiYoutube,
     },
@@ -2355,16 +2292,16 @@ function RepositoriesPage() {
       tags: ["Next.js", "TypeScript", "CSS"],
     },
     {
-      title: "Blockchain Research Experiments",
+      title: "Computer Vision and Data Science Experiments",
       detail:
-        "Reproducible work around distributed ledgers, IoT, and intelligent transportation systems.",
-      tags: ["Blockchain", "IoT", "Research"],
+        "Reproducible work around image processing, optimization, machine learning, and data science.",
+      tags: ["Computer Vision", "Machine Learning", "Research"],
     },
     {
-      title: "MSP Tutorial Resources",
+      title: "Sanoj Kumar Teaching Studio Resources",
       detail:
-        "Teaching notes and supporting material for core computer science subjects.",
-      tags: ["Education", "Operating Systems", "Software Engineering"],
+        "Teaching notes and supporting material for data science, machine learning, statistics, and image processing.",
+      tags: ["Education", "Data Science", "Machine Learning"],
     },
   ];
   return (
@@ -2377,7 +2314,7 @@ function RepositoriesPage() {
       <div className="repo-grid">
         {repos.map((repo) => (
           <a
-            href="https://github.com/shall786"
+            href="https://github.com/sanoj1983github"
             target="_blank"
             rel="noreferrer"
             key={repo.title}
@@ -2411,7 +2348,7 @@ function BooksPage() {
           ["Modern Operating Systems", "Andrew S. Tanenbaum"],
           ["Computer Networking: A Top-Down Approach", "Kurose & Ross"],
           ["Introduction to Algorithms", "Cormen, Leiserson, Rivest & Stein"],
-          ["Mastering Blockchain", "Imran Bashir"],
+          ["Mastering Computer Vision", "Imran Bashir"],
           ["Deep Learning", "Goodfellow, Bengio & Courville"],
         ].map(([title, author], index) => (
           <article key={title}>
@@ -2715,7 +2652,7 @@ function ProjectsPage() {
               Sorting Visualizer System
             </h3>
             <div className="subdomain-badge-banner" style={{ fontSize: "0.78rem", padding: "4px 10px", marginBottom: "12px" }}>
-              <span className="subdomain-badge-link">https://dr-mritunjaysp.com/sorting-visualizer</span>
+              <span className="subdomain-badge-link">https://sanoj1983github.github.io/dr-sanojkumar.github.io/sorting-visualizer</span>
             </div>
             <p style={{ color: "var(--muted)", fontSize: "0.9rem", lineHeight: "1.6", marginBottom: "16px" }}>
               Interactive algorithm animation suite built with step-by-step playback controls, real-time comparisons & swaps telemetry, and Web Audio API tone feedback.
@@ -2741,7 +2678,7 @@ function ProjectsPage() {
               Inkora PenApp Ink Studio
             </h3>
             <div className="subdomain-badge-banner" style={{ fontSize: "0.78rem", padding: "4px 10px", marginBottom: "12px" }}>
-              <span className="subdomain-badge-link">https://dr-mritunjaysp.com/inkora</span>
+              <span className="subdomain-badge-link">https://sanoj1983github.github.io/dr-sanojkumar.github.io/inkora</span>
             </div>
             <p style={{ color: "var(--muted)", fontSize: "0.9rem", lineHeight: "1.6", marginBottom: "16px" }}>
               Windows 10/11 multi-monitor transparent glass overlay annotation app featuring Catmull-Rom smooth splines, laser pointers, shape tools, highlighters, and offline installer.
@@ -2774,13 +2711,13 @@ function ProjectsPage() {
               <Sparkles size={13} strokeWidth={2.5} color="#10b981" /> Hand Gesture AI Vision Studio
             </div>
             <h3 style={{ fontSize: "1.25rem", fontWeight: 800, marginBottom: "8px" }}>
-              MSP Live Frame AI Studio
+              Live Research Frame AI Studio
             </h3>
             <div className="subdomain-badge-banner" style={{ fontSize: "0.78rem", padding: "4px 10px", marginBottom: "12px" }}>
-              <span className="subdomain-badge-link">https://dr-mritunjaysp.com/msp-live-frame</span>
+              <span className="subdomain-badge-link">https://sanoj1983github.github.io/dr-sanojkumar.github.io/msp-live-frame</span>
             </div>
             <p style={{ color: "var(--muted)", fontSize: "0.9rem", lineHeight: "1.6", marginBottom: "16px" }}>
-              Real-time AI video-to-video hand-gesture framing system powered by MediaPipe Hand Landmarker, Decart Lucy 2.5 WebRTC, and zero-latency GPU canvas artistic filters. Created by Dr. Mritunjay Shall Peelam.
+              Real-time AI video-to-video hand-gesture framing system powered by MediaPipe Hand Landmarker, Decart Lucy 2.5 WebRTC, and zero-latency GPU canvas artistic filters. Created by Dr. Sanoj Kumar.
             </p>
             <div className="pub-attributes-row" style={{ marginBottom: "20px" }}>
               <span className="attribute-pill">MediaPipe Vision</span>
@@ -2791,7 +2728,7 @@ function ProjectsPage() {
           </div>
           <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
             <Link className="btn-sort-primary" href="/msp-live-frame" style={{ flex: "1", textDecoration: "none", textAlign: "center", justifyContent: "center", background: "linear-gradient(135deg, #10b981, #059669)" }}>
-              Launch MSP Live Frame <ChevronRight size={16} />
+              Launch Live Research Frame <ChevronRight size={16} />
             </Link>
           </div>
         </div>
@@ -2802,15 +2739,15 @@ function ProjectsPage() {
               <Code2 size={13} /> Research System
             </div>
             <h3 style={{ fontSize: "1.25rem", fontWeight: 800, marginBottom: "8px" }}>
-              QIoTChain: Quantum IoT Blockchain
+              Brain MRI Segmentation and Vision AI
             </h3>
             <p style={{ color: "var(--muted)", fontSize: "0.9rem", lineHeight: "1.6", marginBottom: "16px" }}>
-              Quantum-resilient blockchain architecture for Industry 4.0 IoT edge devices incorporating post-quantum cryptographic primitives (QKD & QRNG).
+              Applied deep learning and computer vision research for brain MRI segmentation, texture classification, watermarking, and visual intelligence.
             </p>
             <div className="pub-attributes-row" style={{ marginBottom: "20px" }}>
-              <span className="attribute-pill">Quantum Computing</span>
-              <span className="attribute-pill">Blockchain</span>
-              <span className="attribute-pill">Post-Quantum Crypto</span>
+              <span className="attribute-pill">Medical Imaging</span>
+              <span className="attribute-pill">Computer Vision</span>
+              <span className="attribute-pill">Deep Learning</span>
             </div>
           </div>
           <Link className="btn-sort-secondary" href="/publications" style={{ textDecoration: "none", textAlign: "center", justifyContent: "center" }}>
@@ -3037,7 +2974,7 @@ function SortingVisualizerPage() {
 
   const handleCopySubdomain = () => {
     if (typeof window !== "undefined") {
-      navigator.clipboard.writeText("https://dr-mritunjaysp.com/sorting-visualizer");
+      navigator.clipboard.writeText("https://sanoj1983github.github.io/dr-sanojkumar.github.io/sorting-visualizer");
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     }
@@ -3283,12 +3220,12 @@ function SortingVisualizerPage() {
       <div className="subdomain-badge-banner">
         <span>Sub-domain link:</span>
         <a
-          href="https://dr-mritunjaysp.com/sorting-visualizer"
+          href="https://sanoj1983github.github.io/dr-sanojkumar.github.io/sorting-visualizer"
           className="subdomain-badge-link"
           target="_blank"
           rel="noopener noreferrer"
         >
-          https://dr-mritunjaysp.com/sorting-visualizer
+          https://sanoj1983github.github.io/dr-sanojkumar.github.io/sorting-visualizer
         </a>
         <button
           className="subdomain-copy-btn"
@@ -3917,7 +3854,7 @@ function Footer() {
       </div>
       <div className="footer-wave-content">
         <div className="footer-wave-container">
-          © Copyright 2026 Dr. Mritunjay Shall Peelam. Last updated: August 23, 2026.
+          © Copyright 2026 Dr. Sanoj Kumar. Last updated: September 1, 2026.
         </div>
       </div>
     </footer>
@@ -4046,10 +3983,10 @@ export function PortfolioApp({ section = "home" }: { section?: string }) {
       content = <ComingSoonPage kind="Ramayan" />;
       break;
     case "quantum-computation":
-      content = <ComingSoonPage kind="Quantum Computing" />;
+      content = <ComingSoonPage kind="Computer Vision" />;
       break;
     case "blockchain":
-      content = <ComingSoonPage kind="Blockchain" />;
+      content = <ComingSoonPage kind="Computer Vision" />;
       break;
     case "poems":
       content = <ComingSoonPage kind="Poems" />;

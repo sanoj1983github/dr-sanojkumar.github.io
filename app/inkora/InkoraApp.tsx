@@ -87,7 +87,7 @@ export function InkoraApp() {
   const [password, setPassword] = useState("");
   const [authSuccess, setAuthSuccess] = useState(false);
 
-  const subdomainUrl = "https://dr-mritunjaysp.com/inkora";
+  const subdomainUrl = "https://sanoj1983github.github.io/dr-sanojkumar.github.io/inkora";
 
   const handleCopySubdomain = () => {
     navigator.clipboard.writeText(subdomainUrl);

@@ -13,7 +13,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const host =
     requestHeaders.get("x-forwarded-host") ??
     requestHeaders.get("host") ??
-    "dr-mritunjaysp.com";
+    "sanoj1983github.github.io";
   const protocol =
     requestHeaders.get("x-forwarded-proto") ??
     (host.includes("localhost") ? "http" : "https");
@@ -22,22 +22,22 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     metadataBase: new URL(origin),
     title: {
-      default: "Dr. Mritunjay Shall Peelam",
-      template: "%s · Dr. Mritunjay Shall Peelam",
+      default: "Dr. Sanoj Kumar",
+      template: "%s · Dr. Sanoj Kumar",
     },
     description:
-      "Academic portfolio of Dr. Mritunjay Shall Peelam, Senior Member, IEEE and Assistant Professor (Selection Grade) at UPES Dehradun, researching Blockchain, IoT, Edge AI, Federated Learning, and Multimodal Machine Learning.",
+      "Academic portfolio of Dr. Sanoj Kumar, Senior Associate Professor in the Data Science Cluster, SOCS, UPES Dehradun, researching applied mathematics, optimization, digital image processing, computer vision, machine learning, and deep learning.",
     keywords: [
-      "Mritunjay Shall Peelam",
-      "Senior Member IEEE",
+      "Sanoj Kumar",
+      "Applied Mathematics",
       "UPES Dehradun",
-      "Blockchain",
-      "Internet of Things",
-      "Edge AI",
-      "Intelligent Transportation Systems",
-      "Multimodal Machine Learning",
+      "Computer Vision",
+      "Machine Learning",
+      "Optimization",
+      "Digital Image Processing",
+      "Deep Learning",
     ],
-    authors: [{ name: "Dr. Mritunjay Shall Peelam" }],
+    authors: [{ name: "Dr. Sanoj Kumar" }],
     icons: {
       icon: "/apple-touch-icon.png",
       shortcut: "/apple-touch-icon.png",
@@ -46,24 +46,24 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       type: "website",
       url: origin,
-      title: "Dr. Mritunjay Shall Peelam",
+      title: "Dr. Sanoj Kumar",
       description:
-        "Senior Member, IEEE · Assistant Professor (Selection Grade) · Researcher in Blockchain, IoT, Edge AI, and Multimodal ML.",
-      siteName: "Dr. Mritunjay Shall Peelam",
+        "Senior Associate Professor at UPES Dehradun · Researcher in applied mathematics, computer vision, machine learning, optimization, and deep learning.",
+      siteName: "Dr. Sanoj Kumar",
       images: [
         {
           url: `${origin}/og.png`,
           width: 1736,
           height: 909,
-          alt: "Dr. Mritunjay Shall Peelam academic portfolio",
+          alt: "Dr. Sanoj Kumar academic portfolio",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Dr. Mritunjay Shall Peelam",
+      title: "Dr. Sanoj Kumar",
       description:
-        "Senior Member, IEEE · Assistant Professor (Selection Grade) · Researcher in Blockchain, IoT, Edge AI, and Multimodal ML.",
+        "Senior Associate Professor at UPES Dehradun · Researcher in applied mathematics, computer vision, machine learning, optimization, and deep learning.",
       images: [`${origin}/og.png`],
     },
   };

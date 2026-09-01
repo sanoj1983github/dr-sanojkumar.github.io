@@ -1933,7 +1933,7 @@ img {
   color: var(--accent);
 }
 
-/* ── Exact Travel Blog Layout matching dr-mritunjaysp.com/blog ── */
+/* Exact Travel Blog Layout */
 .travel-quote-wrap {
   margin-top: 4px;
   margin-bottom: 22px;
@@ -3967,7 +3967,7 @@ body::before {
 
 
 
-/* ──────────────── Daily Mantra Styles (dr-mritunjaysp.com/daily-mantra) ──────────────── */
+/* Daily Mantra Styles */
 @keyframes daily-mantra-gradient {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
@@ -7494,7 +7494,6 @@ body::before {
     height: 14px !important;
   }
 }
-
 
 
 

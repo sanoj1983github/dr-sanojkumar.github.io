@@ -772,7 +772,7 @@ export function MSPLiveFrameCanvas() {
             </div>
             <h1 className="pro-hero-title">MSP Live Frame AI</h1>
             <p className="pro-hero-sub">
-              Real-time video-to-video AI world transformation framed directly inside your hands gesture box. Created by <strong>Dr. Mritunjay Shall Peelam</strong>.
+              Real-time video-to-video AI world transformation framed directly inside your hands gesture box. Created by <strong>Dr. Sanoj Kumar</strong>.
             </p>
             <div className="starter-features-row">
               <span className="mini-feature-tag"><Cpu size={12} /> MediaPipe Vision</span>
