@@ -674,6 +674,46 @@ const travelPosts = [
 
 const courses = [
   {
+    title: "Introduction to Mathematical Logic",
+    year: "2026",
+    image: "/media/data-structures.jpg",
+    description:
+      "Foundations of formal reasoning, proof techniques, propositions, predicates, and mathematical structures.",
+    topics: ["Logic", "Proofs", "Reasoning", "Structures"],
+  },
+  {
+    title: "PDE and System of ODE Lab",
+    year: "2026",
+    image: "/media/operating-systems.jpg",
+    description:
+      "Computational lab work for partial differential equations, systems of ordinary differential equations, and numerical solution methods.",
+    topics: ["PDE", "ODE", "Numerics", "Lab"],
+  },
+  {
+    title: "Mathematics I, II, and III",
+    year: "2026",
+    image: "/media/software-engineering.jpg",
+    description:
+      "Core undergraduate mathematics covering calculus, algebra, differential equations, transforms, and applied problem solving.",
+    topics: ["Calculus", "Algebra", "ODE", "Applications"],
+  },
+  {
+    title: "Discrete Mathematics",
+    year: "2026",
+    image: "/media/computer-organization.jpg",
+    description:
+      "Sets, relations, functions, combinatorics, graph theory, recurrence relations, and discrete structures for computing.",
+    topics: ["Sets", "Graphs", "Combinatorics", "Structures"],
+  },
+  {
+    title: "Probability and Statistics",
+    year: "2026",
+    image: "/media/operating-systems.jpg",
+    description:
+      "Probability models, inference, estimation, hypothesis testing, and statistical foundations for data science.",
+    topics: ["Probability", "Inference", "Testing", "Estimation"],
+  },
+  {
     title: "Introduction to Data Science",
     year: "2026",
     image: "/media/data-structures.jpg",
@@ -682,12 +722,20 @@ const courses = [
     topics: ["Data", "Statistics", "Python", "Models"],
   },
   {
-    title: "Machine Learning",
+    title: "Statistics for Data Science",
     year: "2026",
     image: "/media/computer-organization.jpg",
     description:
-      "Supervised and unsupervised learning, model evaluation, optimization, and applied AI problem solving.",
-    topics: ["Regression", "Classification", "Clustering", "Evaluation"],
+      "Statistical summaries, distributions, sampling, inference, regression, and data-driven decision making.",
+    topics: ["Statistics", "Sampling", "Regression", "Inference"],
+  },
+  {
+    title: "Discrete Mathematical Structures",
+    year: "2026",
+    image: "/media/software-engineering.jpg",
+    description:
+      "Mathematical structures used in computer science, including logic, relations, graphs, trees, and counting methods.",
+    topics: ["Logic", "Relations", "Graphs", "Counting"],
   },
   {
     title: "Digital Image Processing and Machine Vision",
@@ -698,12 +746,84 @@ const courses = [
     topics: ["Images", "Segmentation", "Features", "Vision"],
   },
   {
-    title: "Probability and Statistics",
+    title: "Advanced Mathematics",
     year: "2026",
     image: "/media/operating-systems.jpg",
     description:
-      "Probability models, inference, estimation, hypothesis testing, and statistical foundations for data science.",
-    topics: ["Probability", "Inference", "Testing", "Estimation"],
+      "Advanced mathematical tools for engineering, analytics, modeling, and computational research.",
+    topics: ["Modeling", "Analysis", "Transforms", "Applications"],
+  },
+  {
+    title: "Digital Image Processing and Pattern Analysis",
+    year: "2026",
+    image: "/media/data-structures.jpg",
+    description:
+      "Pattern analysis, feature representation, classification, and image-processing methods for visual data.",
+    topics: ["Patterns", "Features", "Classification", "Images"],
+  },
+  {
+    title: "Applied Numerical Methods",
+    year: "2026",
+    image: "/media/computer-organization.jpg",
+    description:
+      "Numerical approximation, interpolation, integration, linear systems, optimization, and computational problem solving.",
+    topics: ["Numerics", "Approximation", "Systems", "Optimization"],
+  },
+  {
+    title: "Python Programming",
+    year: "2026",
+    image: "/media/software-engineering.jpg",
+    description:
+      "Programming foundations, scientific computing, data handling, and practical Python workflows for analytics.",
+    topics: ["Python", "Programming", "Data", "Computing"],
+  },
+  {
+    title: "System Modeling and Identification",
+    year: "2026",
+    image: "/media/operating-systems.jpg",
+    description:
+      "Model formulation, parameter identification, dynamic systems, and data-informed representation of physical processes.",
+    topics: ["Systems", "Models", "Identification", "Dynamics"],
+  },
+  {
+    title: "Applied Statistical Analysis",
+    year: "2026",
+    image: "/media/data-structures.jpg",
+    description:
+      "Applied statistics for experimentation, analysis, interpretation, and evidence-based conclusions.",
+    topics: ["Analysis", "Inference", "Experiments", "Evidence"],
+  },
+  {
+    title: "PDE and System of ODE",
+    year: "2026",
+    image: "/media/computer-organization.jpg",
+    description:
+      "Theory and applications of differential equations, including partial differential equations and systems of ODEs.",
+    topics: ["PDE", "ODE", "Theory", "Applications"],
+  },
+  {
+    title: "Document Image Processing",
+    year: "2026",
+    image: "/media/software-engineering.jpg",
+    description:
+      "Document analysis, preprocessing, enhancement, segmentation, recognition, and image-based information extraction.",
+    topics: ["Documents", "OCR", "Segmentation", "Enhancement"],
+  },
+  {
+    title: "Machine Learning",
+    year: "2026",
+    image: "/media/computer-organization.jpg",
+    description:
+      "Supervised and unsupervised learning, model evaluation, optimization, and applied AI problem solving.",
+    topics: ["Regression", "Classification", "Clustering", "Evaluation"],
+  },
+  {
+    title: "Problem Solving",
+    year: "2026",
+    image: "/media/data-structures.jpg",
+    description:
+      "Structured analytical thinking, mathematical modeling, algorithms, and practical strategies for complex problems.",
+    topics: ["Reasoning", "Algorithms", "Modeling", "Strategy"],
   },
 ];
 
@@ -1534,9 +1654,11 @@ function HomePage() {
       <article className="bio copy">
         <p>
           I am Dr. Sanoj Kumar, Senior Associate Professor in the Data Science
-          Cluster, School of Computer Science, UPES Dehradun. My work connects
-          applied mathematics, statistics, optimization, digital image
-          processing, computer vision, machine learning, and deep learning.
+          Cluster, School of Computer Science, UPES Dehradun. My work brings
+          mathematical foundations into intelligent visual computing, combining
+          statistics, numerical analysis, optimization, image processing,
+          computer vision, machine learning, and deep learning to solve
+          data-rich real-world problems.
         </p>
         <p>
           I completed my Ph.D. in Applied Mathematics from IIT Roorkee with a
@@ -2025,7 +2147,7 @@ function CvPage() {
           <strong>Senior Associate Professor, UPES Dehradun</strong>
           <strong className="cv-membership">Senior Member, IEEE</strong>
           <p>
-            Applied mathematics and data science researcher working across mathematical statistics, optimization, digital image processing, computer vision, machine learning, and deep learning.
+            Applied mathematics and data science researcher translating mathematical statistics, numerical analysis, optimization, and visual computing into machine learning and deep learning solutions for complex real-world problems.
           </p>
           <div className="cv-actions">
             <a

@@ -109,15 +109,23 @@ The portfolio includes the full publication list from the resume: journal papers
 ## Teaching Portfolio
 
 - Introduction to Mathematical Logic
+- PDE and System of ODE Lab
 - Mathematics I, II, III
+- Discrete Mathematics
 - Probability and Statistics
 - Introduction to Data Science
 - Statistics for Data Science
+- Discrete Mathematical Structures
 - Digital Image Processing and Machine Vision
+- Advanced Mathematics
 - Digital Image Processing and Pattern Analysis
-- Python Programming
-- Machine Learning
 - Applied Numerical Methods
+- Python Programming
+- System Modeling and Identification
+- Applied Statistical Analysis
+- PDE and System of ODE
+- Document Image Processing
+- Machine Learning
 - Problem Solving
 
 ## Supervision
