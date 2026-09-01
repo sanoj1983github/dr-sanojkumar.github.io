@@ -743,60 +743,67 @@ const cvSections = {
   ],
   Experience: [
     {
-      period: "Mar 2026 - Present",
+      period: "Mar 2026 - Till date",
       title: "Senior Associate Professor",
       place: "Data Science Cluster, SOCS, UPES Dehradun",
       detail:
-        "Teaching, tutorials, research supervision, curriculum contribution, and academic service in data science and applied mathematics.",
+        "Assigned departmental duties including lectures, tutorials, research work, mentoring, and academic service.",
     },
     {
-      period: "Mar 2025 - Present",
+      period: "Mar 2025 - Till date",
       title: "Associate Professor",
       place: "Data Science Cluster, SOCS, UPES Dehradun",
       detail:
-        "Academic duties including lectures, tutorials, research mentoring, and departmental responsibilities.",
+        "Assigned departmental duties including lectures, tutorials, research work, mentoring, and academic service.",
     },
     {
-      period: "Jun 2023 - Present",
+      period: "Jun 2023 - Till date",
       title: "Assistant Professor (Selection Grade)",
       place: "Data Science Cluster, SOCS, UPES Dehradun",
       detail:
-        "Teaching and research work across mathematics, data science, machine learning, and image processing.",
+        "Teaching and research across mathematics, data science, machine learning, image processing, and departmental academic duties.",
     },
     {
       period: "Jan 2018 - May 2023",
       title: "Assistant Professor (Selection Grade)",
-      place: "Department of Mathematics, UPES Dehradun",
+      place: "Department of Mathematics, University of Petroleum and Energy Studies, Dehradun",
       detail:
-        "Lectures, tutorials, research work, and student mentoring in mathematics and computational subjects.",
+        "Assigned departmental duties including lectures, tutorials, research work, and student mentoring.",
     },
     {
       period: "Jan 2015 - Dec 2017",
       title: "Assistant Professor (Senior Scale)",
-      place: "Department of Mathematics, UPES Dehradun",
+      place: "Department of Mathematics, University of Petroleum and Energy Studies, Dehradun",
       detail:
-        "Teaching and academic responsibilities in applied mathematics and numerical methods.",
+        "Assigned departmental duties including lectures, tutorials, research work, and academic responsibilities.",
     },
     {
       period: "Oct 2013 - Sep 2014",
       title: "Postdoctoral Fellow",
-      place: "Department of Mathematics and Computer Science, University of Udine, Italy",
+      place: "Department of Mathematics and Computer Science, University of Udine, Udine, Italy",
       detail:
         "Postdoctoral research in mathematics, computer science, and image-analysis related areas.",
     },
     {
       period: "2008 - 2013",
-      title: "Teaching Assistant and MHRD Research Fellow",
-      place: "Department of Mathematics, IIT Roorkee",
+      title: "Teaching Assistant",
+      place: "Department of Mathematics, Indian Institute of Technology Roorkee, India",
       detail:
-        "Tutorials and labs for calculus, numerical analysis, image processing, and computer applications.",
+        "Conducted tutorials and labs for Calculus, Numerical Analysis, Image Processing, and Computer Applications.",
+    },
+    {
+      period: "2008 - 2013",
+      title: "MHRD Research Fellow",
+      place: "Department of Mathematics, Indian Institute of Technology Roorkee, India",
+      detail:
+        "Research fellowship during doctoral work on robust optical flow and disparity map estimation.",
     },
     {
       period: "2006 - 2008",
       title: "Guest Lecturer",
-      place: "Department of Mathematics, MNNIT Allahabad",
+      place: "Department of Mathematics, Motilal Nehru National Institute of Technology Allahabad, India",
       detail:
-        "Lectures, tutorials, and labs for Mathematics I, II, III, Numerical Analysis, and Business Mathematics.",
+        "Conducted lectures, tutorials, and labs for graduate and undergraduate courses including Mathematics I, II, III, Numerical Analysis, and Business Mathematics.",
     },
   ],
 };
@@ -2141,9 +2148,10 @@ function CvPage() {
         <div className="skill-grid">
           {[
             ["Research", "Mathematical Statistics, Optimization, Computer Vision, Machine Learning"],
-            ["Programming", "C, C++, Python, Matlab, Mathematica"],
-            ["Core Subjects", "Probability and Statistics, Numerical Analysis, Data Science, Image Processing"],
-            ["Tools", "OpenCV, MS Office, LaTeX, SmartDraw"],
+            ["Computing Platforms", "Windows 7, 10, 11"],
+            ["Programming Languages", "C, C++, Python, Matlab, Mathematica"],
+            ["Tools", "OpenCV"],
+            ["Software Packages", "MS Office, LaTeX, SmartDraw"],
           ].map(([title, text]) => (
             <div className="skill-card" key={title}>
               <Code2 size={19} />
@@ -2157,10 +2165,11 @@ function CvPage() {
         <SectionTitle eyebrow="Recognition">Selected Awards</SectionTitle>
         <div className="award-grid">
           {[
-            "Wiley Top Viewed Article 2025",
-            "Outstanding Research Article Award — IIT Roorkee",
-            "Top 10 Most-Cited Paper — IET Quantum Communication",
-            "IETE Academic Top 10",
+            "GATE Mathematics qualified with All India Rank 201 in 2008",
+            "CSIR-UGC NET Mathematics qualified with All India Rank 112 in December 2009",
+            "Best Paper Award, NETCRYPT 2020",
+            "Young Scientist Award, NETCRYPT 2020",
+            "Best Teachers Award, UPES 2023 and UPES 2024",
           ].map((title) => (
             <div className="award-card" key={title}>
               <Award size={20} />
@@ -2211,19 +2220,23 @@ function CvPage() {
         </SectionTitle>
         <div className="copy cv-copy-list">
           <p>
-            Reviewer for <em>Expert Systems</em>,{" "}
-            <em>Intelligent Transportation Systems</em>,{" "}
-            <em>Cognitive Computation</em>,{" "}
-            <em>Computers and Electrical Engineering</em>, and{" "}
-            <em>IET Image Processing</em>.
+            IEEE member, Institute of Electrical and Electronics Engineers, USA.
           </p>
           <p>
-            Presented research at international venues including IEEE Global
-            Communications Conference (GLOBECOM).
+            Reviewer for <em>ISA Transactions</em>,{" "}
+            <em>Optical Engineering</em>,{" "}
+            <em>Applied Mathematical Modelling</em>,{" "}
+            <em>IET Image Processing</em>,{" "}
+            <em>Mathematics</em>,{" "}
+            <em>International Journal of System Assurance Engineering and Management</em>,{" "}
+            <em>Symmetry</em>, and{" "}
+            <em>Journal of Imaging</em>.
           </p>
           <p>
-            Active in academic mentoring, teaching, and interdisciplinary
-            research collaborations.
+            Convenor for the workshop <em>Deep Learning: From Foundations to Cutting-Edge Techniques</em> from July 15-19, 2024, and the FDP <em>Effective Pedagogy: Practice and Policy Alignment</em> from July 28-August 01, 2025.
+          </p>
+          <p>
+            Session Co-Chair at CVIP 2016, ICHSA 2018, NETCRYPT 2020, ICCCS 2021, ICCSAI 2023, ICMLDE 2023, ICICCT 2024, and ICMLDE 2025.
           </p>
         </div>
       </div>
@@ -2244,8 +2257,8 @@ function CvPage() {
         <SectionTitle eyebrow="Contact record">Personal Details</SectionTitle>
         <div className="profile-details">
           <p>
-            <strong>Date of Birth</strong>
-            <span>04 April 1992</span>
+            <strong>Nationality</strong>
+            <span>Indian</span>
           </p>
           <p>
             <strong>Gender</strong>
@@ -2258,8 +2271,7 @@ function CvPage() {
           <p>
             <strong>Current Address</strong>
             <span>
-              Village and Post Pandari, District Mirzapur, Uttar Pradesh,
-              India — 231001
+              Village and Post: Manakpur Adampur, District: Haridwar, Uttarakhand, India - 247668
             </span>
           </p>
           <p>
@@ -2634,30 +2646,95 @@ function RepositoriesPage() {
 }
 
 function BooksPage() {
+  const editedBooks = [
+    [
+      "Artificial Intelligence in Healthcare: Emphasis on Diabetes, Hypertension and Depression Management",
+      "Gaurav Bathla, Sanoj Kumar, Harish Garg, and Deepika Saini",
+      "Edited book in the series Intelligent Data-Driven Systems and Artificial Intelligence, CRC Press, 2024.",
+    ],
+    [
+      "Artificial Intelligence Techniques in Mathematical Modeling and Optimization",
+      "Mukesh Kumar Awasthi, Sanoj Kumar, and Deepika Saini",
+      "Edited book in the series Intelligent Data-Driven Systems and Artificial Intelligence, CRC Press, 2025.",
+    ],
+  ];
+
+  const bookChapters = [
+    [
+      "Introduction to AI-Driven Mathematical Modeling",
+      "Mukesh Kumar Awasthi, Sanoj Kumar, and Deepika Saini",
+      "Artificial Intelligence Techniques in Mathematical Modeling and Optimization, CRC Press, Taylor & Francis, pages 1-12, 2026.",
+    ],
+    [
+      "Deep Learning Techniques From Training to Generalization",
+      "Manoj Kumar Singh, Sanoj Kumar, and Deepika Saini",
+      "Artificial Intelligence Techniques in Mathematical Modeling and Optimization, CRC Press, Taylor & Francis, pages 57-66, 2026.",
+    ],
+    [
+      "Future Trends and Emerging Technologies in AI Optimization",
+      "Sanoj Kumar, Mukesh Kumar Awasthi, and Deepika Saini",
+      "Artificial Intelligence Techniques in Mathematical Modeling and Optimization, CRC Press, Taylor & Francis, pages 308-324, 2026.",
+    ],
+    [
+      "Depression Prediction Using Machine Learning Techniques",
+      "Sanoj Kumar, Zahid Akhtar, Harsh Satsangi, Sakshi Sehrawat, Namit Arora, and Kartik Bamal",
+      "Artificial Intelligence in Healthcare, CRC Press, Taylor & Francis, 2024.",
+    ],
+    [
+      "AI Chatbot for Depression Self-Help",
+      "Sanoj Kumar, Rahul Pal, Niki Martinel, and Deepika Saini",
+      "Artificial Intelligence in Healthcare, CRC Press, Taylor & Francis, 2024.",
+    ],
+    [
+      "Image watermarking with polar harmonic moments",
+      "Sanoj Kumar, Manoj K. Singh, and Deepika Saini",
+      "Computing and Simulation for Engineers, CRC Press, Taylor & Francis, 2021.",
+    ],
+    [
+      "SIE: An application to secure Stereo Images using Encryption",
+      "Sanoj Kumar and Gaurav Bhatnagar",
+      "Handbook of Multimedia Information Security: Techniques and Applications, Springer, October 2018.",
+    ],
+  ];
+
   return (
     <section className="page-section">
       <PageIntro
-        eyebrow="Reading shelf"
+        eyebrow="Books and chapters"
         title="Books"
-        description="Selected references supporting teaching, systems research, cryptography, and intelligent computing."
+        description="Edited books and book chapters from Dr. Sanoj Kumar's CV, spanning AI in healthcare, mathematical modeling, optimization, and multimedia security."
       />
-      <div className="books-grid">
-        {[
-          ["Operating System Concepts", "Silberschatz, Galvin & Gagne"],
-          ["Modern Operating Systems", "Andrew S. Tanenbaum"],
-          ["Computer Networking: A Top-Down Approach", "Kurose & Ross"],
-          ["Introduction to Algorithms", "Cormen, Leiserson, Rivest & Stein"],
-          ["Mastering Computer Vision", "Imran Bashir"],
-          ["Deep Learning", "Goodfellow, Bengio & Courville"],
-        ].map(([title, author], index) => (
-          <article key={title}>
-            <div className={`book-cover cover-${index + 1}`}>
-              <BookOpen />
-            </div>
-            <h2>{title}</h2>
-            <p>{author}</p>
-          </article>
-        ))}
+      <div className="cv-section">
+        <SectionTitle count={editedBooks.length} eyebrow="Edited volumes">
+          Edited Books
+        </SectionTitle>
+        <div className="books-grid">
+          {editedBooks.map(([title, author, detail], index) => (
+            <article key={title}>
+              <div className={`book-cover cover-${index + 1}`}>
+                <BookOpen />
+              </div>
+              <h2>{title}</h2>
+              <p>{author}</p>
+              <p>{detail}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+      <div className="cv-section">
+        <SectionTitle count={bookChapters.length} eyebrow="Published chapters">
+          Book Chapters
+        </SectionTitle>
+        <div className="detail-grid">
+          {bookChapters.map(([title, author, detail]) => (
+            <article key={title}>
+              <span>Book chapter</span>
+              <h3>{title}</h3>
+              <p>{author}</p>
+              <p>{detail}</p>
+            </article>
+          ))}
+        </div>
       </div>
     </section>
   );

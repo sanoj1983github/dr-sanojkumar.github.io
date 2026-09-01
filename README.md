@@ -22,11 +22,14 @@ This repository contains the academic portfolio website of **Dr. Sanoj Kumar**, 
 
 ## Current Position
 
-- **Senior Associate Professor**, Data Science Cluster, SOCS, UPES Dehradun
-- Former **Associate Professor** and **Assistant Professor (Selection Grade)** at UPES
-- Former **Postdoctoral Fellow**, Department of Mathematics and Computer Science, University of Udine, Italy
-- Former **Teaching Assistant and MHRD Research Fellow**, Department of Mathematics, IIT Roorkee
-- Former **Guest Lecturer**, Department of Mathematics, MNNIT Allahabad
+- **Mar 2026 - Till date**: Senior Associate Professor, Data Science Cluster, SOCS, UPES Dehradun
+- **Mar 2025 - Till date**: Associate Professor, Data Science Cluster, SOCS, UPES Dehradun
+- **Jun 2023 - Till date**: Assistant Professor (Selection Grade), Data Science Cluster, SOCS, UPES Dehradun
+- **Jan 2018 - May 2023**: Assistant Professor (Selection Grade), Department of Mathematics, UPES Dehradun
+- **Jan 2015 - Dec 2017**: Assistant Professor (Senior Scale), Department of Mathematics, UPES Dehradun
+- **Oct 2013 - Sep 2014**: Postdoctoral Fellow, Department of Mathematics and Computer Science, University of Udine, Italy
+- **2008 - 2013**: Teaching Assistant and MHRD Research Fellow, Department of Mathematics, IIT Roorkee
+- **2006 - 2008**: Guest Lecturer, Department of Mathematics, MNNIT Allahabad
 
 ## Education
 
@@ -88,9 +91,15 @@ The portfolio includes the full publication list from the resume: journal papers
 
 ## Books And Book Chapters
 
-- Edited book: **Artificial Intelligence in Healthcare: Emphasis on Diabetes, Hypertension and Depression Management**, CRC Press, 2024.
-- Edited book: **Artificial Intelligence Techniques in Mathematical Modeling and Optimization**, CRC Press, 2025.
-- Book chapters on AI-driven mathematical modeling, deep learning, AI optimization, depression prediction, AI chatbot systems, and image watermarking.
+- Edited book: **Artificial Intelligence in Healthcare: Emphasis on Diabetes, Hypertension and Depression Management**, Gaurav Bathla, Sanoj Kumar, Harish Garg, and Deepika Saini, CRC Press, 2024.
+- Edited book: **Artificial Intelligence Techniques in Mathematical Modeling and Optimization**, Mukesh Kumar Awasthi, Sanoj Kumar, and Deepika Saini, CRC Press, 2025.
+- **Introduction to AI-Driven Mathematical Modeling**, Mukesh Kumar Awasthi, Sanoj Kumar, and Deepika Saini, CRC Press, Taylor & Francis, pages 1-12, 2026.
+- **Deep Learning Techniques From Training to Generalization**, Manoj Kumar Singh, Sanoj Kumar, and Deepika Saini, CRC Press, Taylor & Francis, pages 57-66, 2026.
+- **Future Trends and Emerging Technologies in AI Optimization**, Sanoj Kumar, Mukesh Kumar Awasthi, and Deepika Saini, CRC Press, Taylor & Francis, pages 308-324, 2026.
+- **Depression Prediction Using Machine Learning Techniques**, Sanoj Kumar, Zahid Akhtar, Harsh Satsangi, Sakshi Sehrawat, Namit Arora, and Kartik Bamal, Artificial Intelligence in Healthcare, CRC Press, Taylor & Francis, 2024.
+- **AI Chatbot for Depression Self-Help**, Sanoj Kumar, Rahul Pal, Niki Martinel, and Deepika Saini, Artificial Intelligence in Healthcare, CRC Press, Taylor & Francis, 2024.
+- **Image watermarking with polar harmonic moments**, Sanoj Kumar, Manoj K. Singh, and Deepika Saini, Computing and Simulation for Engineers, CRC Press, Taylor & Francis, 2021.
+- **SIE: An application to secure Stereo Images using Encryption**, Sanoj Kumar and Gaurav Bhatnagar, Handbook of Multimedia Information Security: Techniques and Applications, Springer, October 2018.
 
 ## Teaching Portfolio
 
@@ -124,7 +133,9 @@ The portfolio includes the full publication list from the resume: journal papers
 - Best Teachers Award, UPES 2023 and 2024
 - Convenor, workshop on **Deep Learning: From Foundations to Cutting-Edge Techniques**, July 2024
 - Convenor, FDP on **Effective Pedagogy: Practice and Policy Alignment**, July-August 2025
-- Reviewer for ISA Transactions, Optical Engineering, Applied Mathematical Modelling, IET Image Processing, Mathematics, Journal of Imaging, Symmetry, and related venues
+- IEEE membership, Institute of Electrical and Electronics Engineers, USA
+- Session Co-Chair: CVIP 2016, ICHSA 2018, NETCRYPT 2020, ICCCS 2021, ICCSAI 2023, ICMLDE 2023, ICICCT 2024, ICMLDE 2025
+- Reviewer for ISA Transactions, Optical Engineering, Applied Mathematical Modelling, IET Image Processing, Mathematics, International Journal of System Assurance Engineering and Management, Symmetry, and Journal of Imaging
 
 ## Technical Stack
 
@@ -143,7 +154,9 @@ This portfolio is built with:
 - **Alternate Email**: [sanojdma@gmail.com](mailto:sanojdma@gmail.com)
 - **Phone**: +91 9058523010
 - **Office**: Data Science Cluster, SOCS, UPES, Dehradun, India - 248007
-- **Permanent Address**: Manakpur Adampur, Haridwar, Uttarakhand, India - 247668
+- **Permanent Address**: Village and Post Manakpur Adampur, District Haridwar, Uttarakhand, India - 247668
+- **Personal Details**: Nationality - Indian; Gender - Male; Marital Status - Married
+- **Software Exposure**: Windows 7, 10, 11; C, C++, Python, Matlab, Mathematica; OpenCV; MS Office, LaTeX, SmartDraw
 
 ---
 
