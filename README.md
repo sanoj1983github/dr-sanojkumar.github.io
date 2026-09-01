@@ -23,8 +23,8 @@ This repository contains the academic portfolio website of **Dr. Sanoj Kumar**, 
 ## Current Position
 
 - **Mar 2026 - Till date**: Senior Associate Professor, Data Science Cluster, SOCS, UPES Dehradun
-- **Mar 2025 - Till date**: Associate Professor, Data Science Cluster, SOCS, UPES Dehradun
-- **Jun 2023 - Till date**: Assistant Professor (Selection Grade), Data Science Cluster, SOCS, UPES Dehradun
+- **Mar 2025 - Feb 2026**: Associate Professor, Data Science Cluster, SOCS, UPES Dehradun
+- **Jun 2023 - Feb 2025**: Assistant Professor (Selection Grade), Data Science Cluster, SOCS, UPES Dehradun
 - **Jan 2018 - May 2023**: Assistant Professor (Selection Grade), Department of Mathematics, UPES Dehradun
 - **Jan 2015 - Dec 2017**: Assistant Professor (Senior Scale), Department of Mathematics, UPES Dehradun
 - **Oct 2013 - Sep 2014**: Postdoctoral Fellow, Department of Mathematics and Computer Science, University of Udine, Italy
@@ -91,8 +91,13 @@ The portfolio includes the full publication list from the resume: journal papers
 
 ## Books And Book Chapters
 
+### Edited Books
+
 - Edited book: **Artificial Intelligence in Healthcare: Emphasis on Diabetes, Hypertension and Depression Management**, Gaurav Bathla, Sanoj Kumar, Harish Garg, and Deepika Saini, CRC Press, 2024.
 - Edited book: **Artificial Intelligence Techniques in Mathematical Modeling and Optimization**, Mukesh Kumar Awasthi, Sanoj Kumar, and Deepika Saini, CRC Press, 2025.
+
+### Book Chapters
+
 - **Introduction to AI-Driven Mathematical Modeling**, Mukesh Kumar Awasthi, Sanoj Kumar, and Deepika Saini, CRC Press, Taylor & Francis, pages 1-12, 2026.
 - **Deep Learning Techniques From Training to Generalization**, Manoj Kumar Singh, Sanoj Kumar, and Deepika Saini, CRC Press, Taylor & Francis, pages 57-66, 2026.
 - **Future Trends and Emerging Technologies in AI Optimization**, Sanoj Kumar, Mukesh Kumar Awasthi, and Deepika Saini, CRC Press, Taylor & Francis, pages 308-324, 2026.

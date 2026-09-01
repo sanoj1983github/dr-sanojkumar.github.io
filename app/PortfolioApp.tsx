@@ -750,14 +750,14 @@ const cvSections = {
         "Assigned departmental duties including lectures, tutorials, research work, mentoring, and academic service.",
     },
     {
-      period: "Mar 2025 - Till date",
+      period: "Mar 2025 - Feb 2026",
       title: "Associate Professor",
       place: "Data Science Cluster, SOCS, UPES Dehradun",
       detail:
         "Assigned departmental duties including lectures, tutorials, research work, mentoring, and academic service.",
     },
     {
-      period: "Jun 2023 - Till date",
+      period: "Jun 2023 - Feb 2025",
       title: "Assistant Professor (Selection Grade)",
       place: "Data Science Cluster, SOCS, UPES Dehradun",
       detail:
