@@ -43,16 +43,48 @@ This repository contains the academic portfolio website of **Dr. Sanoj Kumar**, 
 - Image watermarking, image reconstruction, texture classification, and visual surveillance
 - AI-driven mathematical modeling and healthcare applications
 
-## Selected Publications
+## Publications
 
-- Rahul Pal, Sanoj Kumar, and Gaurav Bhatnagar, **Brain MRI Segmentation using Deep Learning: A Review**, under review in *Neurocomputing*, 2026.
-- Rahul Pal, Sanoj Kumar, and Gaurav Bhatnagar, **Uncertainty-aware multi-class brain tumor segmentation using Bayesian U-Net variants**, *Biomedical Physics & Engineering Express*, 2026.
-- Swati Rastogi, Sanoj Kumar, Musrrat Ali, and Abdul Rahaman Wahab Sait, **Sequential Multimodal Biometric Authentication Fusion System**, *Mathematics*, 2026.
-- Sanoj Kumar, Harendra Pal Singh, Musrrat Ali, and Abdul Rahaman Wahab Sait, **Earthquake-Resilient Structural Control Using PSO-Based Fractional Order Controllers**, *Fractal and Fractional*, 2025.
-- Musrrat Ali, Deepika Saini, Sanoj Kumar, and Abdul Rahaman Wahab Sait, **Optimization-Driven Reconstruction of 3D Space Curves from Two Views Using NURBS**, *Mathematics*, 2025.
-- Manoj Kumar Singh, Sanoj Kumar, and Deepika Saini, **A Complex Network Analysis of Image Watermarking Scheme Based on SVD and DWT**, *SN Computer Science*, 2024.
-- Musrrat Ali and Sanoj Kumar, **A Robust Zero-Watermarking Scheme in Spatial Domain by Achieving Features Similar to Frequency Domain**, *Electronics*, 2024.
-- Sanoj Kumar, Sanjeev Kumar, Balasubramanian Raman, and N. Sukavanam, **Dual Tree Fractional Quaternion Wavelet Transform for Disparity Estimation**, *ISA Transactions*, 2014.
+The portfolio includes the full publication list from the resume: journal papers with impact factors where available, plus conference publications.
+
+1. **Brain MRI Segmentation using Deep Learning: A Review** (Journal, 2026) - Rahul Pal, Sanoj Kumar, and Gaurav Bhatnagar. *Neurocomputing (Elsevier)*. Impact Factor: 6.5.
+2. **Uncertainty-aware multi-class brain tumor segmentation using Bayesian U-Net variants** (Journal, 2026) - Rahul Pal, Sanoj Kumar, and Gaurav Bhatnagar. *Biomedical Physics & Engineering Express, 12(2), 025076*. Impact Factor: 2.0.
+3. **Sequential Multimodal Biometric Authentication Fusion System** (Journal, 2026) - Swati Rastogi, Sanoj Kumar, Musrrat Ali, and Abdul Rahaman Wahab Sait. *Mathematics, 14(7), 1178*. Impact Factor: 2.3.
+4. **Earthquake-Resilient Structural Control Using PSO-Based Fractional Order Controllers** (Journal, 2025) - Sanoj Kumar, Harendra Pal Singh, Musrrat Ali, and Abdul Rahaman Wahab Sait. *Fractal and Fractional, 9(12), 759*. Impact Factor: 3.5.
+5. **Optimization-Driven Reconstruction of 3D Space Curves from Two Views Using NURBS** (Journal, 2025) - Musrrat Ali, Deepika Saini, Sanoj Kumar, and Abdul Rahaman Wahab Sait. *Mathematics, 13(14), 2256*. Impact Factor: 2.3.
+6. **A Complex Network Analysis of Image Watermarking Scheme Based on SVD and DWT** (Journal, 2024) - Manoj Kumar Singh, Sanoj Kumar, and Deepika Saini. *SN Computer Science, 5(8), 1009*.
+7. **Machine Learning-Based Stability Prediction and Analysis of Polypropylene Cu-MA Superhydrophobic Coating on the Aluminum Substrate** (Journal, 2024) - Himanshu Prasad Mamgain, Rahul Pal, Sanoj Kumar, Ranjeet Brajpuriya, and Jitendra K Pandey. *The Journal of Physical Chemistry C, 35, 2011-2022*. Impact Factor: 3.3.
+8. **Topological analysis of image reconstruction based on polar complex exponential transform** (Journal, 2024) - Manoj K. Singh, Deepika Saini, and Sanoj Kumar. *Journal of Computational and Cognitive Engineering*.
+9. **Unveiling anomalies: harnessing machine learning for detection and insights** (Journal, 2024) - Shubh Gupta, Sanoj Kumar, Karan Singh, and Deepika Saini. *Engineering Research Express, 6(3), 5215*. Impact Factor: 1.5.
+10. **Inverse Geometric Reconstruction Based on MW-NURBS Curves** (Journal, 2024) - Musrrat Ali, Deepika Saini, and Sanoj Kumar. *Mathematics, 12(13), 2071*. Impact Factor: 2.2.
+11. **Topological Data Analysis and Image Visibility Graph for Texture Classification** (Journal, 2024) - Rahul C. Pal, Sanoj Kumar, and Manoj K. Singh. *International Journal of System Assurance Engineering and Management*. Impact Factor: 2.018.
+12. **Edge Computing Enabled Abnormal Activity Recognition for Visual Surveillance** (Journal, 2024) - Musrrat Ali, Lakshay Goyal, CM Sharma, and Sanoj Kumar. *Electronics, 13(2), 251*. Impact Factor: 2.690.
+13. **A Robust Zero-Watermarking Scheme in Spatial Domain by Achieving Features Similar to Frequency Domain** (Journal, 2024) - Musrrat Ali and Sanoj Kumar. *Electronics, 13(2), 435*. Impact Factor: 2.690.
+14. **Graph-and Machine-Learning-Based Texture Classification** (Journal, 2023) - Musrrat Ali, Sanoj Kumar, Rahul Pal, Manoj K Singh, and Deepika Saini. *Electronics, 12(22), 4626*. Impact Factor: 2.690.
+15. **Comparative Study of Rough Set-Based FCM and K-Means Clustering for Tumor Segmentation from Brain MRI Images** (Journal, 2023) - Pooja Singh, Neeru Rathee, Sunanda Sharda, and Sanoj Kumar. *Revue d'Intelligence Artificielle, 37(4), 921-927*.
+16. **A Blend of Analytical and Numerical Methods to Compute Orthogonal Image Moments over a Unit Disk** (Journal, 2022) - Manoj K Singh, Sanoj Kumar, Gaurav Bhatnagar, Deepika Saini, Musrrat Ali, Chandra Mani Sharma, and Navel Sharma. *Wireless Communications and Mobile Computing, Article ID 1344584*. Impact Factor: 2.146.
+17. **A secure and robust stereo image encryption algorithm based on DCT and Schur decomposition** (Journal, 2022) - Sanoj Kumar, Gaurav Bhatnagar, Girish Dobhal, Manoj K. Singh, and Deepika Saini. *Journal of Information Technology Management, 14, 23-43*.
+18. **Application of a novel image moment computation in X-ray and MRI image watermarking** (Journal, 2021) - Manoj K. Singh, Sanoj Kumar, Musrrat Ali, and Deepika Saini. *IET Image Processing, 11, 666-682*. Impact Factor: 2.373.
+19. **Two View NURBS reconstruction based on GACO model** (Journal, 2021) - Deepika Saini, Sanoj Kumar, Manoj K. Singh, and Musrrat Ali. *Complex & Intelligent Systems, 7(5), 2329-2346*. Impact Factor: 6.700.
+20. **An image watermarking framework based on PSO and FrQWT** (Journal, 2021) - Sanoj Kumar, Manoj K. Singh, and Deepika Saini. *Journal of Discrete Mathematical Sciences and Cryptography, 24(5), 1293-1308*. Impact Factor: 0.68.
+21. **An Optimized Digital Watermarking Scheme Based on Invariant DC Coefficients in Spatial Domain** (Journal, 2020) - Musrrat Ali, Chang Wook Ahn, Millie Pant, Sanoj Kumar, Manoj K. Singh, and Deepika Saini. *Electronics, 9(9), 1428*. Impact Factor: 2.690.
+22. **Dual Tree Fractional Quaternion Wavelet Transform for Disparity Estimation** (Journal, 2014) - Sanoj Kumar, Sanjeev Kumar, Balasubramanian Raman, and N. Sukavanam. *ISA Transactions, 53(2), 547-559*. Impact Factor: 5.991.
+23. **Image Disparity Estimation using Fractional Dual-Tree Complex Wavelet Transform: A Multi-Scale Approach** (Journal, 2013) - Sanoj Kumar, Sanjeev Kumar, Nagarajan Sukavanam, and Balasubramanian Raman. *International Journal of Wavelets, Multiresolution and Information Processing, 11, 1350004*. Impact Factor: 1.408.
+24. **Human Visual System and Segment-Based Disparity Estimation** (Journal, 2013) - Sanoj Kumar, Sanjeev Kumar, Nagarajan Sukavanam, and Balasubramanian Raman. *International Journal of Electronics and Communications, 67(5), 372-381*. Impact Factor: 3.183.
+25. **Security of Stereo Images during Communication and Transmission** (Journal, 2012) - Sanoj Kumar, Gaurav Bhatnagar, Balasubramanian Raman, and N. Sukavanam. *Advanced Science Letters, 6, 173-179*.
+26. **Uncertainty-Aware Brain Tumor Segmentation** (Conference, 2025) - Rahul Pal, Sanoj Kumar, and Gaurav Bhatnagar. *2025 IEEE International Conference on Computer Vision and Machine Intelligence (CVMI)*.
+27. **Integrating Image Visibility Graph and Topological Data Analysis for Enhanced Texture Classification** (Conference, 2024) - Rahul C. Pal, Sanoj Kumar, and Manoj K. Singh. *International Conference on Soft Computing for Problem-Solving, Springer Nature Singapore*.
+28. **A reversible and rotational invariant watermarking scheme using polar harmonic transforms** (Conference, 2020) - Manoj K. Singh, Sanoj Kumar, Deepika Saini, and Gaurav Bhatnagar. *Academia-Industry Consortium for Data Science (AICDS-2020)*.
+29. **A secure and robust stereo image encryption algorithm based on DCT and Schur decomposition** (Conference, 2021) - Sanoj Kumar, Gaurav Bhatnagar, Girish Dobhal, Manoj K. Singh, and Deepika Saini. *International Conference on Communication and Computing Systems (ICCCS-2021)*.
+30. **An image watermarking framework based on PSO and FrQWT** (Conference, 2020) - Sanoj Kumar, Manoj K. Singh, and Deepika Saini. *2nd International Conference on Networks and Cryptology (NETCRYPT-2020)*.
+31. **A robust medical image watermarking framework based on SVD and DE in Integer DCT domain** (Conference, 2020) - Sanoj Kumar, Manoj K. Singh, Musrrat Ali, and Deepika Saini. *2020 IEEE Sixth International Conference on Multimedia Big Data (BigMM)*.
+32. **Reconfiguration of PTZ Camera Network with minimum resolution** (Conference, 2018) - Sanoj Kumar, Claudio Piciarelli, and Harendra Pal Singh. *4th International Conference on Harmony Search, Soft Computing and Applications (ICHSA 2018)*.
+33. **Histogram based Motion Estimation of Underwater Images** (Conference, 2018) - Sanoj Kumar, Sanjeev Kumar, and Anuj Kumar. *International Conference on Frontiers in Industrial and Applied Mathematics (FIAM 2018)*.
+34. **A Variational Approach for Optical Flow Estimation in Infra-Red or Thermal Images** (Conference, 2013) - Sanoj Kumar, Sanjeev Kumar, and Balasubramanian Raman. *Second International Conference on Image Information Processing (ICIIP-2013)*.
+35. **Optical flow Estimation using Fractional Quaternion Wavelet Transform** (Conference, 2012) - Sanoj Kumar, Sanjeev Kumar, Nagarajan Sukavanam, and Balasubramanian Raman. *International Conference on Industrial and Intelligent Information (ICIII-2012), Singapore*.
+36. **Human Visual System and Wavelet transform based disparity estimation** (Conference, 2011) - Sanoj Kumar, Nagarajan Sukavanam, Balasubramanian Raman, and Sanjeev Kumar. *Fourth International Conference on Emerging Trends in Engineering and Technology (ICETET), Mauritius*.
+37. **Disparity Estimation using Fractional Dual Tree Complex Wavelet Transform** (Conference, 2011) - Sanoj Kumar, Sanjeev Kumar, Nagarajan Sukavanam, and Balasubramanian Raman. *International Conference on Image Information Processing (ICIIP-2011)*.
+38. **Human Action Recognition in a Wide and Complex Environment** (Conference, 2011) - Sanoj Kumar, Sanjeev Kumar, Balasubramanian Raman, and Nagarajan Sukavanam. *Real-Time Image and Video Processing 2011, IS&T/SPIE Electronic Imaging*.
 
 ## Books And Book Chapters
 

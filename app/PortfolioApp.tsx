@@ -137,165 +137,464 @@ const publications: Publication[] = [
     venue: "Neurocomputing (Elsevier)",
     year: 2026,
     citations: 0,
-    tags: ["Under Review", "SCI", "Impact Factor: 6.5"],
-    abstract:
-      "A review of deep learning techniques for brain MRI segmentation, covering model families, datasets, evaluation practices, and emerging clinical imaging challenges.",
+    tags: [
+      "Journal",
+      "Under Review",
+      "SCI",
+      "Impact Factor: 6.5"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
   {
     title: "Uncertainty-aware multi-class brain tumor segmentation using Bayesian U-Net variants",
     authors: "Rahul Pal, Sanoj Kumar, and Gaurav Bhatnagar",
-    venue: "Biomedical Physics & Engineering Express",
+    venue: "Biomedical Physics & Engineering Express, 12(2), 025076",
     year: 2026,
     citations: 0,
-    tags: ["SCI", "Impact Factor: 2.0"],
-    abstract:
-      "Bayesian U-Net variants for uncertainty-aware multi-class brain tumor segmentation, emphasizing reliable medical image analysis and interpretable model confidence.",
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 2.0"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
   {
     title: "Sequential Multimodal Biometric Authentication Fusion System",
     authors: "Swati Rastogi, Sanoj Kumar, Musrrat Ali, and Abdul Rahaman Wahab Sait",
-    venue: "Mathematics",
+    venue: "Mathematics, 14(7), 1178",
     year: 2026,
     citations: 0,
-    tags: ["SCI", "Impact Factor: 2.3"],
-    abstract:
-      "A multimodal biometric authentication framework using sequential fusion to strengthen identity verification across complementary biometric signals.",
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 2.3"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
   {
     title: "Earthquake-Resilient Structural Control Using PSO-Based Fractional Order Controllers",
     authors: "Sanoj Kumar, Harendra Pal Singh, Musrrat Ali, and Abdul Rahaman Wahab Sait",
-    venue: "Fractal and Fractional",
+    venue: "Fractal and Fractional, 9(12), 759",
     year: 2025,
     citations: 0,
-    tags: ["SCI", "Impact Factor: 3.5"],
-    abstract:
-      "Optimization-driven fractional order control for earthquake-resilient structures using particle swarm optimization and applied mathematical modeling.",
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 3.5"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
   {
     title: "Optimization-Driven Reconstruction of 3D Space Curves from Two Views Using NURBS",
     authors: "Musrrat Ali, Deepika Saini, Sanoj Kumar, and Abdul Rahaman Wahab Sait",
-    venue: "Mathematics",
+    venue: "Mathematics, 13(14), 2256",
     year: 2025,
     citations: 0,
-    tags: ["SCI", "Impact Factor: 2.3"],
-    abstract:
-      "A NURBS-based optimization approach for reconstructing three-dimensional space curves from two-view geometric information.",
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 2.3"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
   {
     title: "A Complex Network Analysis of Image Watermarking Scheme Based on SVD and DWT",
     authors: "Manoj Kumar Singh, Sanoj Kumar, and Deepika Saini",
-    venue: "SN Computer Science",
+    venue: "SN Computer Science, 5(8), 1009",
     year: 2024,
     citations: 0,
-    tags: ["Journal", "Computer Vision"],
-    abstract:
-      "Complex-network analysis of an image watermarking scheme using singular value decomposition and discrete wavelet transform features.",
+    tags: [
+      "Journal"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
   {
     title: "Machine Learning-Based Stability Prediction and Analysis of Polypropylene Cu-MA Superhydrophobic Coating on the Aluminum Substrate",
     authors: "Himanshu Prasad Mamgain, Rahul Pal, Sanoj Kumar, Ranjeet Brajpuriya, and Jitendra K Pandey",
-    venue: "The Journal of Physical Chemistry C",
+    venue: "The Journal of Physical Chemistry C, 35, 2011-2022",
     year: 2024,
     citations: 0,
-    tags: ["SCI", "Impact Factor: 3.3"],
-    abstract:
-      "Machine learning methods for predicting and analyzing coating stability on aluminum substrates in materials science applications.",
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 3.3"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "Topological analysis of image reconstruction based on polar complex exponential transform",
+    authors: "Manoj K. Singh, Deepika Saini, and Sanoj Kumar",
+    venue: "Journal of Computational and Cognitive Engineering",
+    year: 2024,
+    citations: 0,
+    tags: [
+      "Journal"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
   {
     title: "Unveiling anomalies: harnessing machine learning for detection and insights",
     authors: "Shubh Gupta, Sanoj Kumar, Karan Singh, and Deepika Saini",
-    venue: "Engineering Research Express",
+    venue: "Engineering Research Express, 6(3), 5215",
     year: 2024,
     citations: 0,
-    tags: ["SCI", "Impact Factor: 1.5"],
-    doi: "https://doi.org/10.1088/2631-8695/ad66b2",
-    abstract:
-      "Machine learning methods for anomaly detection, insight generation, and data-driven interpretation in applied engineering settings.",
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 1.5"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
   {
     title: "Inverse Geometric Reconstruction Based on MW-NURBS Curves",
     authors: "Musrrat Ali, Deepika Saini, and Sanoj Kumar",
-    venue: "Mathematics",
+    venue: "Mathematics, 12(13), 2071",
     year: 2024,
     citations: 0,
-    tags: ["SCI", "Impact Factor: 2.2"],
-    abstract:
-      "Inverse geometric reconstruction using MW-NURBS curves for precise modeling of curve and shape information.",
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 2.2"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "Topological Data Analysis and Image Visibility Graph for Texture Classification",
+    authors: "Rahul C. Pal, Sanoj Kumar, and Manoj K. Singh",
+    venue: "International Journal of System Assurance Engineering and Management",
+    year: 2024,
+    citations: 0,
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 2.018"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
   {
     title: "Edge Computing Enabled Abnormal Activity Recognition for Visual Surveillance",
     authors: "Musrrat Ali, Lakshay Goyal, CM Sharma, and Sanoj Kumar",
-    venue: "Electronics",
+    venue: "Electronics, 13(2), 251",
     year: 2024,
     citations: 0,
-    tags: ["SCI", "Impact Factor: 2.690"],
-    doi: "https://doi.org/10.3390/electronics13020251",
-    abstract:
-      "An edge-computing enabled visual surveillance framework for detecting abnormal activities with efficient computer vision pipelines.",
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 2.690"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
   {
     title: "A Robust Zero-Watermarking Scheme in Spatial Domain by Achieving Features Similar to Frequency Domain",
     authors: "Musrrat Ali and Sanoj Kumar",
-    venue: "Electronics",
+    venue: "Electronics, 13(2), 435",
     year: 2024,
     citations: 0,
-    tags: ["SCI", "Impact Factor: 2.690"],
-    doi: "https://doi.org/10.3390/electronics13020435",
-    abstract:
-      "A robust spatial-domain zero-watermarking approach designed to achieve feature behavior comparable to frequency-domain methods.",
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 2.690"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
   {
     title: "Graph-and Machine-Learning-Based Texture Classification",
     authors: "Musrrat Ali, Sanoj Kumar, Rahul Pal, Manoj K Singh, and Deepika Saini",
-    venue: "Electronics",
+    venue: "Electronics, 12(22), 4626",
     year: 2023,
     citations: 0,
-    tags: ["SCI", "Impact Factor: 2.690"],
-    doi: "https://doi.org/10.3390/electronics12224626",
-    abstract:
-      "Graph-based and machine-learning methods for texture classification in image analysis applications.",
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 2.690"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "Comparative Study of Rough Set-Based FCM and K-Means Clustering for Tumor Segmentation from Brain MRI Images",
+    authors: "Pooja Singh, Neeru Rathee, Sunanda Sharda, and Sanoj Kumar",
+    venue: "Revue d'Intelligence Artificielle, 37(4), 921-927",
+    year: 2023,
+    citations: 0,
+    tags: [
+      "Journal"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "A Blend of Analytical and Numerical Methods to Compute Orthogonal Image Moments over a Unit Disk",
+    authors: "Manoj K Singh, Sanoj Kumar, Gaurav Bhatnagar, Deepika Saini, Musrrat Ali, Chandra Mani Sharma, and Navel Sharma",
+    venue: "Wireless Communications and Mobile Computing, Article ID 1344584",
+    year: 2022,
+    citations: 0,
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 2.146"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "A secure and robust stereo image encryption algorithm based on DCT and Schur decomposition",
+    authors: "Sanoj Kumar, Gaurav Bhatnagar, Girish Dobhal, Manoj K. Singh, and Deepika Saini",
+    venue: "Journal of Information Technology Management, 14, 23-43",
+    year: 2022,
+    citations: 0,
+    tags: [
+      "Journal",
+      "Scopus"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
   {
     title: "Application of a novel image moment computation in X-ray and MRI image watermarking",
     authors: "Manoj K. Singh, Sanoj Kumar, Musrrat Ali, and Deepika Saini",
-    venue: "IET Image Processing",
+    venue: "IET Image Processing, 11, 666-682",
     year: 2021,
     citations: 0,
-    tags: ["SCI", "Impact Factor: 2.373"],
-    abstract:
-      "Novel image moment computation applied to medical image watermarking for X-ray and MRI imagery.",
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 2.373"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "Two View NURBS reconstruction based on GACO model",
+    authors: "Deepika Saini, Sanoj Kumar, Manoj K. Singh, and Musrrat Ali",
+    venue: "Complex & Intelligent Systems, 7(5), 2329-2346",
+    year: 2021,
+    citations: 0,
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 6.700"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "An image watermarking framework based on PSO and FrQWT",
+    authors: "Sanoj Kumar, Manoj K. Singh, and Deepika Saini",
+    venue: "Journal of Discrete Mathematical Sciences and Cryptography, 24(5), 1293-1308",
+    year: 2021,
+    citations: 0,
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 0.68"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "An Optimized Digital Watermarking Scheme Based on Invariant DC Coefficients in Spatial Domain",
+    authors: "Musrrat Ali, Chang Wook Ahn, Millie Pant, Sanoj Kumar, Manoj K. Singh, and Deepika Saini",
+    venue: "Electronics, 9(9), 1428",
+    year: 2020,
+    citations: 0,
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 2.690"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
   {
     title: "Dual Tree Fractional Quaternion Wavelet Transform for Disparity Estimation",
     authors: "Sanoj Kumar, Sanjeev Kumar, Balasubramanian Raman, and N. Sukavanam",
-    venue: "ISA Transactions",
+    venue: "ISA Transactions, 53(2), 547-559",
     year: 2014,
     citations: 0,
-    tags: ["SCI", "Impact Factor: 5.991"],
-    abstract:
-      "A fractional quaternion wavelet transform approach for disparity estimation in image sequences.",
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 5.991"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
   {
     title: "Image Disparity Estimation using Fractional Dual-Tree Complex Wavelet Transform: A Multi-Scale Approach",
     authors: "Sanoj Kumar, Sanjeev Kumar, Nagarajan Sukavanam, and Balasubramanian Raman",
-    venue: "International Journal of Wavelets, Multiresolution and Information Processing",
+    venue: "International Journal of Wavelets, Multiresolution and Information Processing, 11, 1350004",
     year: 2013,
     citations: 0,
-    tags: ["SCI", "Impact Factor: 1.408"],
-    doi: "https://doi.org/10.1142/S0219691313500045",
-    abstract:
-      "A multi-scale fractional dual-tree complex wavelet transform method for image disparity estimation.",
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 1.408"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
   {
     title: "Human Visual System and Segment-Based Disparity Estimation",
     authors: "Sanoj Kumar, Sanjeev Kumar, Nagarajan Sukavanam, and Balasubramanian Raman",
-    venue: "International Journal of Electronics and Communications",
+    venue: "International Journal of Electronics and Communications, 67(5), 372-381",
     year: 2013,
     citations: 0,
-    tags: ["SCI", "Impact Factor: 3.183"],
-    abstract:
-      "Segment-based disparity estimation inspired by human visual system principles.",
+    tags: [
+      "Journal",
+      "SCI",
+      "Impact Factor: 3.183"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
   },
+  {
+    title: "Security of Stereo Images during Communication and Transmission",
+    authors: "Sanoj Kumar, Gaurav Bhatnagar, Balasubramanian Raman, and N. Sukavanam",
+    venue: "Advanced Science Letters, 6, 173-179",
+    year: 2012,
+    citations: 0,
+    tags: [
+      "Journal"
+    ],
+    abstract: "Journal publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "Uncertainty-Aware Brain Tumor Segmentation",
+    authors: "Rahul Pal, Sanoj Kumar, and Gaurav Bhatnagar",
+    venue: "2025 IEEE International Conference on Computer Vision and Machine Intelligence (CVMI)",
+    year: 2025,
+    citations: 0,
+    tags: [
+      "Conference",
+      "IEEE"
+    ],
+    abstract: "Conference publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "Integrating Image Visibility Graph and Topological Data Analysis for Enhanced Texture Classification",
+    authors: "Rahul C. Pal, Sanoj Kumar, and Manoj K. Singh",
+    venue: "International Conference on Soft Computing for Problem-Solving, Springer Nature Singapore",
+    year: 2024,
+    citations: 0,
+    tags: [
+      "Conference",
+      "Springer"
+    ],
+    abstract: "Conference publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "A reversible and rotational invariant watermarking scheme using polar harmonic transforms",
+    authors: "Manoj K. Singh, Sanoj Kumar, Deepika Saini, and Gaurav Bhatnagar",
+    venue: "Academia-Industry Consortium for Data Science (AICDS-2020)",
+    year: 2020,
+    citations: 0,
+    tags: [
+      "Conference"
+    ],
+    abstract: "Conference publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "A secure and robust stereo image encryption algorithm based on DCT and Schur decomposition",
+    authors: "Sanoj Kumar, Gaurav Bhatnagar, Girish Dobhal, Manoj K. Singh, and Deepika Saini",
+    venue: "International Conference on Communication and Computing Systems (ICCCS-2021)",
+    year: 2021,
+    citations: 0,
+    tags: [
+      "Conference"
+    ],
+    abstract: "Conference publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "An image watermarking framework based on PSO and FrQWT",
+    authors: "Sanoj Kumar, Manoj K. Singh, and Deepika Saini",
+    venue: "2nd International Conference on Networks and Cryptology (NETCRYPT-2020)",
+    year: 2020,
+    citations: 0,
+    tags: [
+      "Conference"
+    ],
+    abstract: "Conference publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "A robust medical image watermarking framework based on SVD and DE in Integer DCT domain",
+    authors: "Sanoj Kumar, Manoj K. Singh, Musrrat Ali, and Deepika Saini",
+    venue: "2020 IEEE Sixth International Conference on Multimedia Big Data (BigMM)",
+    year: 2020,
+    citations: 0,
+    tags: [
+      "Conference",
+      "IEEE"
+    ],
+    abstract: "Conference publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "Reconfiguration of PTZ Camera Network with minimum resolution",
+    authors: "Sanoj Kumar, Claudio Piciarelli, and Harendra Pal Singh",
+    venue: "4th International Conference on Harmony Search, Soft Computing and Applications (ICHSA 2018)",
+    year: 2018,
+    citations: 0,
+    tags: [
+      "Conference"
+    ],
+    abstract: "Conference publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "Histogram based Motion Estimation of Underwater Images",
+    authors: "Sanoj Kumar, Sanjeev Kumar, and Anuj Kumar",
+    venue: "International Conference on Frontiers in Industrial and Applied Mathematics (FIAM 2018)",
+    year: 2018,
+    citations: 0,
+    tags: [
+      "Conference"
+    ],
+    abstract: "Conference publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "A Variational Approach for Optical Flow Estimation in Infra-Red or Thermal Images",
+    authors: "Sanoj Kumar, Sanjeev Kumar, and Balasubramanian Raman",
+    venue: "Second International Conference on Image Information Processing (ICIIP-2013)",
+    year: 2013,
+    citations: 0,
+    tags: [
+      "Conference"
+    ],
+    abstract: "Conference publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "Optical flow Estimation using Fractional Quaternion Wavelet Transform",
+    authors: "Sanoj Kumar, Sanjeev Kumar, Nagarajan Sukavanam, and Balasubramanian Raman",
+    venue: "International Conference on Industrial and Intelligent Information (ICIII-2012), Singapore",
+    year: 2012,
+    citations: 0,
+    tags: [
+      "Conference"
+    ],
+    abstract: "Conference publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "Human Visual System and Wavelet transform based disparity estimation",
+    authors: "Sanoj Kumar, Nagarajan Sukavanam, Balasubramanian Raman, and Sanjeev Kumar",
+    venue: "Fourth International Conference on Emerging Trends in Engineering and Technology (ICETET), Mauritius",
+    year: 2011,
+    citations: 0,
+    tags: [
+      "Conference"
+    ],
+    abstract: "Conference publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "Disparity Estimation using Fractional Dual Tree Complex Wavelet Transform",
+    authors: "Sanoj Kumar, Sanjeev Kumar, Nagarajan Sukavanam, and Balasubramanian Raman",
+    venue: "International Conference on Image Information Processing (ICIIP-2011)",
+    year: 2011,
+    citations: 0,
+    tags: [
+      "Conference"
+    ],
+    abstract: "Conference publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  },
+  {
+    title: "Human Action Recognition in a Wide and Complex Environment",
+    authors: "Sanoj Kumar, Sanjeev Kumar, Balasubramanian Raman, and Nagarajan Sukavanam",
+    venue: "Real-Time Image and Video Processing 2011, IS&T/SPIE Electronic Imaging",
+    year: 2011,
+    citations: 0,
+    tags: [
+      "Conference",
+      "SPIE"
+    ],
+    abstract: "Conference publication from Dr. Sanoj Kumar's research record, covering applied mathematics, optimization, image processing, computer vision, machine learning, deep learning, reconstruction, watermarking, segmentation, and visual computing."
+  }
 ];
 
 const news = [
@@ -1328,7 +1627,7 @@ function HomePage() {
           {publications.map((publication, index) => (
             <PublicationCard
               compact
-              key={publication.title}
+              key={`${publication.title}-${index}`}
               publication={publication}
               index={index}
               open={opened === index}
@@ -1425,7 +1724,7 @@ function PublicationsPage() {
             </select>
           </div>
         }
-        description={`Complete peer-reviewed research record comprising ${publications.length} high-impact journal papers and conference proceedings.`}
+        description={`Complete research record comprising ${publications.length} journal papers and conference proceedings, including journal impact factors where available.`}
       />
       <div className="publication-toolbar">
         <label className="filter-input">
@@ -1443,7 +1742,7 @@ function PublicationsPage() {
           aria-label="Filter by year"
         >
           <option value="all">All years</option>
-          {[2026, 2025, 2024, 2021].map((value) => (
+          {[2026, 2025, 2024, 2023, 2022, 2021, 2020, 2018, 2014, 2013, 2012, 2011].map((value) => (
             <option value={value} key={value}>
               {value}
             </option>
@@ -1471,7 +1770,7 @@ function PublicationsPage() {
           const originalIndex = publications.indexOf(publication);
           return (
             <PublicationCard
-              key={publication.title}
+              key={`${publication.title}-${originalIndex}`}
               publication={publication}
               index={originalIndex}
               open={opened === originalIndex}
@@ -1756,7 +2055,7 @@ function CvPage() {
           {publications.map((publication, index) => (
             <PublicationCard
               compact
-              key={publication.title}
+              key={`${publication.title}-${index}`}
               publication={publication}
               index={index}
               open={openedPub === index}
